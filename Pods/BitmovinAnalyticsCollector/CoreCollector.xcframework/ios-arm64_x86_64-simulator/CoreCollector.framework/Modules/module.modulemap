@@ -1,4 +1,0 @@
-framework module CoreCollector {
-  header "CoreCollector-Swift.h"
-  requires objc
-}

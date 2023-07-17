@@ -1,4 +1,0 @@
-framework module BitmovinPlayer {
-  header "BitmovinPlayer-Swift.h"
-  requires objc
-}

@@ -1,4 +1,0 @@
-framework module BitmovinCollector {
-  header "BitmovinCollector-Swift.h"
-  requires objc
-}
