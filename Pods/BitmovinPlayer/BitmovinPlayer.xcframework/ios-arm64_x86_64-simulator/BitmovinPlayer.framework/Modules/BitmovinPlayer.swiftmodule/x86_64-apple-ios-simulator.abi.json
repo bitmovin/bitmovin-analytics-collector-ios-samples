@@ -1,0 +1,22 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "BitmovinPlayerCore",
+        "printedName": "BitmovinPlayerCore",
+        "declKind": "Import",
+        "moduleName": "BitmovinPlayer",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

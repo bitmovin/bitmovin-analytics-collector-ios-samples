@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		26981CA29F960C08FD286B1191E2AB7F /* BitmovinAnalyticsCollector */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4F1717C96EC052FC987C024FF39AB2F0 /* Build configuration list for PBXAggregateTarget "BitmovinAnalyticsCollector" */;
+			buildPhases = (
+				73A34F91406F174EE7DF7D86557C2CC3 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				F260FD6C39E510B3D5292AFE6031D8BD /* PBXTargetDependency */,
+			);
+			name = BitmovinAnalyticsCollector;
+		};
+		616304A9CD46B3188625E997948FE04A /* BitmovinPlayerCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAC0FD7BF4DB236C7E966496F3AC1FF4 /* Build configuration list for PBXAggregateTarget "BitmovinPlayerCore" */;
+			buildPhases = (
+				25526DB4AC9413C42821138ECBD4355B /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = BitmovinPlayerCore;
+		};
+		95DD103C503D8F16FD27F000FA761AAB /* BitmovinPlayer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 69B0691EC75D2F0E6D413F588758F2D5 /* Build configuration list for PBXAggregateTarget "BitmovinPlayer" */;
+			buildPhases = (
+				5A866321BC6E5E9492D3CF6155D555F9 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				040710E69B662B9F9F93EB52CF9E8A8B /* PBXTargetDependency */,
+			);
+			name = BitmovinPlayer;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2D0D4640E103630FB10EB03ABBEEB709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D67C4995274AA7FD210FE20F170FFFB0 /* Pods-BasicSetup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2439ADB9A1C19BDAD4C0933B3E04E8D /* Pods-BasicSetup-dummy.m */; };
+		E618892671CEE827AA5102768DD91616 /* Pods-BasicSetup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B7813D7EDC9E862CF0DF940785911E /* Pods-BasicSetup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C6132A5FBFF6CD81E3967B90EB6892E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616304A9CD46B3188625E997948FE04A;
+			remoteInfo = BitmovinPlayerCore;
+		};
+		3ADCE268B676C20CDCD1CF8205EA7A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26981CA29F960C08FD286B1191E2AB7F;
+			remoteInfo = BitmovinAnalyticsCollector;
+		};
+		3F69B5AAECE74BCFF31F1609B4352782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616304A9CD46B3188625E997948FE04A;
+			remoteInfo = BitmovinPlayerCore;
+		};
+		AB275AB12E3275F5FD0F3394491D80B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616304A9CD46B3188625E997948FE04A;
+			remoteInfo = BitmovinPlayerCore;
+		};
+		DA9796E83DD0F8F15C4DEB91D62E48DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DD103C503D8F16FD27F000FA761AAB;
+			remoteInfo = BitmovinPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20687AACA93EB1414E851D5AEF051250 /* Pods-BasicSetup */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BasicSetup"; path = Pods_BasicSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22872A3E96B26E3B18B1BF707CF98B7A /* Pods-BasicSetup-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BasicSetup-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24916FB1498C93E94A28B2526066FF17 /* Pods-BasicSetup-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BasicSetup-acknowledgements.plist"; sourceTree = "<group>"; };
+		27B7813D7EDC9E862CF0DF940785911E /* Pods-BasicSetup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BasicSetup-umbrella.h"; sourceTree = "<group>"; };
+		306C8BB159561E58879998C76FE450D5 /* BitmovinAnalyticsCollector-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BitmovinAnalyticsCollector-xcframeworks.sh"; sourceTree = "<group>"; };
+		3A15E40525CFD9785E150310013EE213 /* BitmovinAnalyticsCollector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitmovinAnalyticsCollector.debug.xcconfig; sourceTree = "<group>"; };
+		4421E83453D974A4DDCC4C6AA69DA1DD /* BitmovinAnalyticsCollector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitmovinAnalyticsCollector.release.xcconfig; sourceTree = "<group>"; };
+		4E3A7F32CBEE865F2583192114B7CF67 /* Pods-BasicSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BasicSetup.release.xcconfig"; sourceTree = "<group>"; };
+		526E6B11EA16CCCC2A56B2D0FA5E3DAF /* BitmovinPlayerCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitmovinPlayerCore.debug.xcconfig; sourceTree = "<group>"; };
+		56316E0833FCFA8898F6863E87A6A095 /* Pods-BasicSetup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BasicSetup.modulemap"; sourceTree = "<group>"; };
+		6081C707A6401B1A601BEA8C28EC10C5 /* BitmovinPlayerCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BitmovinPlayerCore-xcframeworks.sh"; sourceTree = "<group>"; };
+		6E093279CF952C6C959823EC2E0B71BB /* BitmovinCollector.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = BitmovinCollector.xcframework; sourceTree = "<group>"; };
+		71DD82BC07CD192976298EED20097C45 /* BitmovinPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitmovinPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76E0408B7480E21A86B58B31C8E1F4DA /* Pods-BasicSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BasicSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		7E08D235621F6BFD3BC0CD7C307B72CD /* Pods-BasicSetup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BasicSetup-Info.plist"; sourceTree = "<group>"; };
+		8007D045A60D03F78999616C5E2FD478 /* BitmovinPlayerCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = BitmovinPlayerCore.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2439ADB9A1C19BDAD4C0933B3E04E8D /* Pods-BasicSetup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BasicSetup-dummy.m"; sourceTree = "<group>"; };
+		BFA991364E4129E730DBCA40F2DF29CC /* CoreCollector.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CoreCollector.xcframework; sourceTree = "<group>"; };
+		CBA92CD0F605B2675EB05E8AACE3B792 /* BitmovinPlayer.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = BitmovinPlayer.xcframework; sourceTree = "<group>"; };
+		CC10F765A687FCE1F1A1EFC8FEE94D39 /* BitmovinPlayer-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BitmovinPlayer-xcframeworks.sh"; sourceTree = "<group>"; };
+		D02797F0A45EE826B2BA0D2C367370C6 /* BitmovinPlayerCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitmovinPlayerCore.release.xcconfig; sourceTree = "<group>"; };
+		D7A1104CFC952DA6ABAFE99AC3CDF029 /* BitmovinPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitmovinPlayer.release.xcconfig; sourceTree = "<group>"; };
+		DFB2D49BC883B0DFE0ECE2423BFF908E /* Pods-BasicSetup-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BasicSetup-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1683FF23176E3FBFDD678FC05BC821C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0D4640E103630FB10EB03ABBEEB709 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E853D0E87F1AEB79EF90AD0A5FAC6F /* BitmovinPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C34049C8EAE00970A451EFCB6D6B568B /* Frameworks */,
+				7A0F07089CB3463F46423607C9AD31AE /* Support Files */,
+			);
+			name = BitmovinPlayer;
+			path = BitmovinPlayer;
+			sourceTree = "<group>";
+		};
+		1A652BF14992AE8590546BD4436FE87E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC5C1D5B9A1F45B82F39C5D6D8FCC7 /* Pods-BasicSetup */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		228F037D168BB92A603F29792BB0B511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E093279CF952C6C959823EC2E0B71BB /* BitmovinCollector.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EF5CCDB73005E6E2D75B5DE9EA7AE91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFA991364E4129E730DBCA40F2DF29CC /* CoreCollector.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F8FB26A6BB75857750944B7FBE0D7AD /* BitmovinPlayerCore */ = {
+			isa = PBXGroup;
+			children = (
+				A26DEFB40175543C86157FCE2AECA4BD /* Frameworks */,
+				ECA847C4024751FA3E1403235D5109DE /* Support Files */,
+			);
+			name = BitmovinPlayerCore;
+			path = BitmovinPlayerCore;
+			sourceTree = "<group>";
+		};
+		76A565ABD0A301CF568889F25C5925BE /* BitmovinAnalyticsCollector */ = {
+			isa = PBXGroup;
+			children = (
+				9C20F0939F3DFD8FD177A6963EB29FDF /* BitmovinPlayer */,
+				898DC34FAD9EAB5AC36BC11D48BAE310 /* Core */,
+				BE9DE96DB9A719271B44A6C03627F7FE /* Support Files */,
+			);
+			name = BitmovinAnalyticsCollector;
+			path = BitmovinAnalyticsCollector;
+			sourceTree = "<group>";
+		};
+		7A0F07089CB3463F46423607C9AD31AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC10F765A687FCE1F1A1EFC8FEE94D39 /* BitmovinPlayer-xcframeworks.sh */,
+				71DD82BC07CD192976298EED20097C45 /* BitmovinPlayer.debug.xcconfig */,
+				D7A1104CFC952DA6ABAFE99AC3CDF029 /* BitmovinPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BitmovinPlayer";
+			sourceTree = "<group>";
+		};
+		898DC34FAD9EAB5AC36BC11D48BAE310 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5EF5CCDB73005E6E2D75B5DE9EA7AE91 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9C20F0939F3DFD8FD177A6963EB29FDF /* BitmovinPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				228F037D168BB92A603F29792BB0B511 /* Frameworks */,
+			);
+			name = BitmovinPlayer;
+			sourceTree = "<group>";
+		};
+		A26DEFB40175543C86157FCE2AECA4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8007D045A60D03F78999616C5E2FD478 /* BitmovinPlayerCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B17E40A815F048847C42DEC0D691327D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76A565ABD0A301CF568889F25C5925BE /* BitmovinAnalyticsCollector */,
+				17E853D0E87F1AEB79EF90AD0A5FAC6F /* BitmovinPlayer */,
+				5F8FB26A6BB75857750944B7FBE0D7AD /* BitmovinPlayerCore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3BC5C1D5B9A1F45B82F39C5D6D8FCC7 /* Pods-BasicSetup */ = {
+			isa = PBXGroup;
+			children = (
+				56316E0833FCFA8898F6863E87A6A095 /* Pods-BasicSetup.modulemap */,
+				22872A3E96B26E3B18B1BF707CF98B7A /* Pods-BasicSetup-acknowledgements.markdown */,
+				24916FB1498C93E94A28B2526066FF17 /* Pods-BasicSetup-acknowledgements.plist */,
+				B2439ADB9A1C19BDAD4C0933B3E04E8D /* Pods-BasicSetup-dummy.m */,
+				DFB2D49BC883B0DFE0ECE2423BFF908E /* Pods-BasicSetup-frameworks.sh */,
+				7E08D235621F6BFD3BC0CD7C307B72CD /* Pods-BasicSetup-Info.plist */,
+				27B7813D7EDC9E862CF0DF940785911E /* Pods-BasicSetup-umbrella.h */,
+				76E0408B7480E21A86B58B31C8E1F4DA /* Pods-BasicSetup.debug.xcconfig */,
+				4E3A7F32CBEE865F2583192114B7CF67 /* Pods-BasicSetup.release.xcconfig */,
+			);
+			name = "Pods-BasicSetup";
+			path = "Target Support Files/Pods-BasicSetup";
+			sourceTree = "<group>";
+		};
+		BE9DE96DB9A719271B44A6C03627F7FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				306C8BB159561E58879998C76FE450D5 /* BitmovinAnalyticsCollector-xcframeworks.sh */,
+				3A15E40525CFD9785E150310013EE213 /* BitmovinAnalyticsCollector.debug.xcconfig */,
+				4421E83453D974A4DDCC4C6AA69DA1DD /* BitmovinAnalyticsCollector.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BitmovinAnalyticsCollector";
+			sourceTree = "<group>";
+		};
+		C34049C8EAE00970A451EFCB6D6B568B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA92CD0F605B2675EB05E8AACE3B792 /* BitmovinPlayer.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B17E40A815F048847C42DEC0D691327D /* Pods */,
+				FE0976F23947E1B1A452AB38E2158C00 /* Products */,
+				1A652BF14992AE8590546BD4436FE87E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA847C4024751FA3E1403235D5109DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6081C707A6401B1A601BEA8C28EC10C5 /* BitmovinPlayerCore-xcframeworks.sh */,
+				526E6B11EA16CCCC2A56B2D0FA5E3DAF /* BitmovinPlayerCore.debug.xcconfig */,
+				D02797F0A45EE826B2BA0D2C367370C6 /* BitmovinPlayerCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BitmovinPlayerCore";
+			sourceTree = "<group>";
+		};
+		FE0976F23947E1B1A452AB38E2158C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20687AACA93EB1414E851D5AEF051250 /* Pods-BasicSetup */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		466E56CDA74A1558553B0C3199D1EEAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E618892671CEE827AA5102768DD91616 /* Pods-BasicSetup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29A06161A779D54E122E20DDA94EEB89 /* Pods-BasicSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4BAB2E04567004B716FFBC01859796 /* Build configuration list for PBXNativeTarget "Pods-BasicSetup" */;
+			buildPhases = (
+				466E56CDA74A1558553B0C3199D1EEAF /* Headers */,
+				94D92AD99EB8D59DB873A292004A856A /* Sources */,
+				1683FF23176E3FBFDD678FC05BC821C5 /* Frameworks */,
+				76362C16674DA029252BB0E3F5A8681D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B80C6596EB8B0B627BC0238769B52AAC /* PBXTargetDependency */,
+				E7DFE19AC98543E412ADADF1A6FC03A7 /* PBXTargetDependency */,
+				BC9E7693C20C61AC07FDF9A4BD5013C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-BasicSetup";
+			productName = Pods_BasicSetup;
+			productReference = 20687AACA93EB1414E851D5AEF051250 /* Pods-BasicSetup */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FE0976F23947E1B1A452AB38E2158C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26981CA29F960C08FD286B1191E2AB7F /* BitmovinAnalyticsCollector */,
+				95DD103C503D8F16FD27F000FA761AAB /* BitmovinPlayer */,
+				616304A9CD46B3188625E997948FE04A /* BitmovinPlayerCore */,
+				29A06161A779D54E122E20DDA94EEB89 /* Pods-BasicSetup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76362C16674DA029252BB0E3F5A8681D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25526DB4AC9413C42821138ECBD4355B /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BitmovinPlayerCore/BitmovinPlayerCore-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BitmovinPlayerCore/BitmovinPlayerCore-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BitmovinPlayerCore/BitmovinPlayerCore-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A866321BC6E5E9492D3CF6155D555F9 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BitmovinPlayer/BitmovinPlayer-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BitmovinPlayer/BitmovinPlayer-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BitmovinPlayer/BitmovinPlayer-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A34F91406F174EE7DF7D86557C2CC3 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BitmovinAnalyticsCollector/BitmovinAnalyticsCollector-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BitmovinAnalyticsCollector/BitmovinAnalyticsCollector-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BitmovinAnalyticsCollector/BitmovinAnalyticsCollector-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D92AD99EB8D59DB873A292004A856A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67C4995274AA7FD210FE20F170FFFB0 /* Pods-BasicSetup-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040710E69B662B9F9F93EB52CF9E8A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitmovinPlayerCore;
+			target = 616304A9CD46B3188625E997948FE04A /* BitmovinPlayerCore */;
+			targetProxy = 1C6132A5FBFF6CD81E3967B90EB6892E /* PBXContainerItemProxy */;
+		};
+		B80C6596EB8B0B627BC0238769B52AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitmovinAnalyticsCollector;
+			target = 26981CA29F960C08FD286B1191E2AB7F /* BitmovinAnalyticsCollector */;
+			targetProxy = 3ADCE268B676C20CDCD1CF8205EA7A3D /* PBXContainerItemProxy */;
+		};
+		BC9E7693C20C61AC07FDF9A4BD5013C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitmovinPlayerCore;
+			target = 616304A9CD46B3188625E997948FE04A /* BitmovinPlayerCore */;
+			targetProxy = 3F69B5AAECE74BCFF31F1609B4352782 /* PBXContainerItemProxy */;
+		};
+		E7DFE19AC98543E412ADADF1A6FC03A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitmovinPlayer;
+			target = 95DD103C503D8F16FD27F000FA761AAB /* BitmovinPlayer */;
+			targetProxy = DA9796E83DD0F8F15C4DEB91D62E48DC /* PBXContainerItemProxy */;
+		};
+		F260FD6C39E510B3D5292AFE6031D8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitmovinPlayerCore;
+			target = 616304A9CD46B3188625E997948FE04A /* BitmovinPlayerCore */;
+			targetProxy = AB275AB12E3275F5FD0F3394491D80B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2642C95AB8DF22408FCA7979C47999DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3A7F32CBEE865F2583192114B7CF67 /* Pods-BasicSetup.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BasicSetup/Pods-BasicSetup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BasicSetup/Pods-BasicSetup.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37510398D900A0B3F5122A8B94CAF0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DD82BC07CD192976298EED20097C45 /* BitmovinPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5ABBB29A0111CF91042CB3F985EBF51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4421E83453D974A4DDCC4C6AA69DA1DD /* BitmovinAnalyticsCollector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8B808A8F7CB799E0344179F61598CD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526E6B11EA16CCCC2A56B2D0FA5E3DAF /* BitmovinPlayerCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAC8AD3583C8124B64746CB2A63E2150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A1104CFC952DA6ABAFE99AC3CDF029 /* BitmovinPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF6BBE217BF7F356903964E11BD3E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E0408B7480E21A86B58B31C8E1F4DA /* Pods-BasicSetup.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BasicSetup/Pods-BasicSetup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BasicSetup/Pods-BasicSetup.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA8DD244E6B2EC47447297A2DC1978CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02797F0A45EE826B2BA0D2C367370C6 /* BitmovinPlayerCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE59170804342DB656068E42FBA087EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A15E40525CFD9785E150310013EE213 /* BitmovinAnalyticsCollector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1717C96EC052FC987C024FF39AB2F0 /* Build configuration list for PBXAggregateTarget "BitmovinAnalyticsCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE59170804342DB656068E42FBA087EF /* Debug */,
+				5ABBB29A0111CF91042CB3F985EBF51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B0691EC75D2F0E6D413F588758F2D5 /* Build configuration list for PBXAggregateTarget "BitmovinPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37510398D900A0B3F5122A8B94CAF0F4 /* Debug */,
+				BAC8AD3583C8124B64746CB2A63E2150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4BAB2E04567004B716FFBC01859796 /* Build configuration list for PBXNativeTarget "Pods-BasicSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6BBE217BF7F356903964E11BD3E265 /* Debug */,
+				2642C95AB8DF22408FCA7979C47999DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC0FD7BF4DB236C7E966496F3AC1FF4 /* Build configuration list for PBXAggregateTarget "BitmovinPlayerCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B808A8F7CB799E0344179F61598CD6D /* Debug */,
+				DA8DD244E6B2EC47447297A2DC1978CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

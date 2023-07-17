@@ -1,0 +1,28 @@
+PODS:
+  - BitmovinAnalyticsCollector/BitmovinPlayer (3.0.0-a.7):
+    - BitmovinAnalyticsCollector/Core
+    - BitmovinPlayerCore (~> 3.40)
+  - BitmovinAnalyticsCollector/Core (3.0.0-a.7)
+  - BitmovinPlayer (3.41.0):
+    - BitmovinPlayerCore (= 3.41.0)
+  - BitmovinPlayerCore (3.41.0)
+
+DEPENDENCIES:
+  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.0.0-a.7)
+  - BitmovinAnalyticsCollector/Core (= 3.0.0-a.7)
+  - BitmovinPlayer (= 3.41.0)
+
+SPEC REPOS:
+  https://github.com/bitmovin/cocoapod-specs.git:
+    - BitmovinAnalyticsCollector
+    - BitmovinPlayer
+    - BitmovinPlayerCore
+
+SPEC CHECKSUMS:
+  BitmovinAnalyticsCollector: b85e1077b15b55b84089135a26c9e9fa4913a389
+  BitmovinPlayer: c8d7beb310c37df057191235cb6da5441cbe8bee
+  BitmovinPlayerCore: 13f01b25795969e312b1e5ba036789a12057eb27
+
+PODFILE CHECKSUM: 13c355af657f7f5357dfa04b2b045705e2e34e02
+
+COCOAPODS: 1.12.1

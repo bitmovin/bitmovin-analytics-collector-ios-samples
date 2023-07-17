@@ -1,0 +1,11 @@
+framework module BitmovinPlayerCore {
+  umbrella header "BitmovinPlayerCore.h"
+
+  export *
+  module * { export * }
+}
+
+module BitmovinPlayerCore.Swift {
+  header "BitmovinPlayerCore-Swift.h"
+  requires objc
+}

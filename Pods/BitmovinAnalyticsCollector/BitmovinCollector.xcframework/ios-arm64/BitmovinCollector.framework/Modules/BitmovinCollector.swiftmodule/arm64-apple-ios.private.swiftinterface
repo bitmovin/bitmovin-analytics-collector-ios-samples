@@ -1,0 +1,85 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BitmovinCollector
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import BitmovinPlayerCore
+import CoreCollector
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objcMembers @objc(BMABitmovinPlayerCollectorFactory) public class BitmovinPlayerCollectorFactory : ObjectiveC.NSObject {
+  @objc public static func create(config: CoreCollector.AnalyticsConfig) -> BitmovinCollector.BitmovinPlayerCollectorAPI
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(*, deprecated)
+@objc @objcMembers public class BitmovinPlayerCollector : ObjectiveC.NSObject {
+  @objc @available(*, deprecated, message: "Deprecated constructor: Use BitmovinPlayerCollectorFactory.create(config:AnalyticsConfig) instead")
+  convenience public init(config oldconfig: CoreCollector.BitmovinAnalyticsConfig)
+  @objc deinit
+}
+extension BitmovinCollector.BitmovinPlayerCollector : BitmovinCollector.BitmovinPlayerCollectorAPI {
+  @objc dynamic public var userId: Swift.String {
+    @objc get
+  }
+  @objc dynamic public var impressionId: Swift.String? {
+    @objc get
+  }
+  @objc dynamic public var version: Swift.String {
+    @objc get
+  }
+  @objc dynamic public func attach(to player: BitmovinPlayerCore.Player)
+  @objc dynamic public func detach()
+  @objc dynamic public var defaultMetadata: CoreCollector.DefaultMetadata {
+    @objc get
+  }
+  @objc dynamic public func apply(defaultMetadata: CoreCollector.DefaultMetadata)
+  @objc dynamic public func apply(sourceMetadata: CoreCollector.SourceMetadata, for source: BitmovinPlayerCore.Source)
+  @objc dynamic public func sourceMetadata(for source: BitmovinPlayerCore.Source) -> CoreCollector.SourceMetadata?
+  @objc dynamic public func applySourceMetadataForCurrentSource(_ sourceMetadata: CoreCollector.SourceMetadata)
+  @objc dynamic public var sourceMetadataForCurrentSource: CoreCollector.SourceMetadata? {
+    @objc get
+  }
+  @objc dynamic public func apply(customData: CoreCollector.CustomData)
+  @objc dynamic public func applyCustomDataForCurrentSource(_ customData: CoreCollector.CustomData)
+  @objc dynamic public func apply(customData: CoreCollector.CustomData, for source: BitmovinPlayerCore.Source)
+  @objc dynamic public func sendCustomDataEvent(with customData: CoreCollector.CustomData)
+  @objc dynamic public var customData: CoreCollector.CustomData {
+    @objc get
+  }
+}
+extension BitmovinCollector.BitmovinPlayerCollector {
+  @available(*, deprecated, renamed: "userId")
+  @objc dynamic public func getUserId() -> Swift.String
+  @available(*, deprecated, renamed: "attach(to:)")
+  @objc dynamic public func attachPlayer(player: BitmovinPlayerCore.Player)
+  @available(*, deprecated, renamed: "detach()")
+  @objc dynamic public func detachPlayer()
+  @available(*, deprecated, renamed: "customData")
+  @objc dynamic public func getCustomData() -> CoreCollector.CustomData
+  @available(*, deprecated, renamed: "apply(customData:)")
+  @objc dynamic public func setCustomData(customData: CoreCollector.CustomData)
+  @available(*, deprecated, renamed: "sendCustomDataEvent(with:)")
+  @objc dynamic public func setCustomDataOnce(customData: CoreCollector.CustomData)
+  @available(*, deprecated, renamed: "apply(sourceMetdata:forSource:)")
+  @objc dynamic public func addSourceMetadata(playerSource: BitmovinPlayerCore.Source, sourceMetadata: CoreCollector.SourceMetadata)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(*, deprecated)
+public class BitmovinAnalytics : BitmovinCollector.BitmovinPlayerCollector {
+  @available(*, deprecated, message: "Deprecated constructor: Use BitmovinPlayerCollectorFactory.create(config:AnalyticsConfig) instead")
+  @objc convenience public init(config oldconfig: CoreCollector.BitmovinAnalyticsConfig)
+  @available(*, deprecated)
+  @objc public func attachBitmovinPlayer(player: BitmovinPlayerCore.Player)
+  @objc deinit
+}
+@objc(BMABitmovinPlayerCollectorAPI) public protocol BitmovinPlayerCollectorAPI : CoreCollector._Collector {
+  @objc func attach(to player: BitmovinPlayerCore.Player)
+  @objc @available(*, deprecated, renamed: "attach(to:)")
+  func attachPlayer(player: BitmovinPlayerCore.Player)
+  @objc func apply(sourceMetadata: CoreCollector.SourceMetadata, for source: BitmovinPlayerCore.Source)
+  @objc func apply(customData: CoreCollector.CustomData, for source: BitmovinPlayerCore.Source)
+  @objc func sourceMetadata(for source: BitmovinPlayerCore.Source) -> CoreCollector.SourceMetadata?
+  @objc @available(*, deprecated, renamed: "apply(sourceMetadata:forSource:)")
+  func addSourceMetadata(playerSource: BitmovinPlayerCore.Source, sourceMetadata: CoreCollector.SourceMetadata)
+}
