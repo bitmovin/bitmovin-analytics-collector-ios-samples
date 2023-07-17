@@ -8,6 +8,7 @@ This repository contains sample apps which are using the Bitmovin Player iOS SDK
   - [Available Sample Apps](#available-sample-apps)
     - [Basics](#basics)
   - [Sample App Setup Instructions](#sample-app-setup-instructions)
+    - [Sample App Setup Instructions with Bitmovin player](#sample-app-setup-instructions-with-bitmovin-player)
   - [Documentation And Release Notes](#documentation-and-release-notes)
   - [Support](#support)
 
@@ -20,15 +21,16 @@ This repository contains sample apps which are using the Bitmovin Player iOS SDK
 ## Sample App Setup Instructions
 Please execute `pod install --repo-update` to properly initialize the workspace. 
 
-In sample apps using the bitmovin player, you also have to add your Bitmovin Player license key to `Info.plist` file as `BitmovinPlayerLicenseKey` or provide it via the `PlayerConfig.key` property.
-
-
 In addition to that you have to log in to [https://bitmovin.com/dashboard](https://bitmovin.com/dashboard), where you have to add the following bundle identifier of the sample application as an allowed domain under `Analytics -> Licenses`:
 
-For sample apps using the bitmovin player, you also need to add these bundle indentifier to the allowed domain sectio for the player licenses `Player -> License`
 
     com.bitmovin.analytics.samples.basic.bitmovinplayer
 
+### Sample App Setup Instructions with Bitmovin player
+
+If you want to run the sample apps for bitmovin player, you also have to add your Bitmovin Player license key to `Info.plist` file as `BitmovinPlayerLicenseKey` or provide it via the `PlayerConfig.key` property.
+
+Also you need to add the bundle indentifier of the samples ([mentioned above](#sample-app-setup-instructions)) as an allowed domain under `Player -> Licenses`
 
 ## Documentation And Release Notes
 -   More information about how to setup our collector can be found [here](https://developer.bitmovin.com/playback/docs/setup-analytics-ios).
