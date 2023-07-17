@@ -10,13 +10,19 @@ def bitmovin_player
   pod 'BitmovinPlayer', '3.41.0'
 end
 
-def bitmovin_collector
+def analytics_collector
   pod 'BitmovinAnalyticsCollector/Core', '3.0.0-a.7'
   pod 'BitmovinAnalyticsCollector/BitmovinPlayer', '3.0.0-a.7'
+  pod 'BitmovinAnalyticsCollector/AVPlayer', '3.0.0-a.7'
 end
 
 target 'BasicSetup' do
   project 'BasicSetup/BasicSetup.xcodeproj'
   bitmovin_player
-  bitmovin_collector
+  analytics_collector
+end
+
+target 'BasicAVFoundationPlayerSetup' do
+  project 'BasicAVFoundationPlayerSetup/BasicAVFoundationPlayerSetup.xcodeproj'
+  analytics_collector
 end

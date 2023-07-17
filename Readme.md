@@ -25,6 +25,7 @@ In addition to that you have to log in to [https://bitmovin.com/dashboard](https
 
 
     com.bitmovin.analytics.samples.basic.bitmovinplayer
+    com.bitmovin.analytics.samples.basic.avplayer
 
 ### Sample App Setup Instructions with Bitmovin player
 
