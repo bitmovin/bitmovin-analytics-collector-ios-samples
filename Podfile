@@ -33,8 +33,8 @@ target 'AVFoundationPlayerBasicSetup' do
   analytics_collector
 end
 
-target 'BasicAmazonIVSPlayerSetup' do
-  project 'BasicAmazonIVSPlayerSetup/BasicAmazonIVSPlayerSetup.xcodeproj'
+target 'AmazonIVSPlayerBasicSetup' do
+  project 'AmazonIVSPlayerBasicSetup/AmazonIVSPlayerBasicSetup.xcodeproj'
   analytics_collector
   amazon_ivs_player
 end

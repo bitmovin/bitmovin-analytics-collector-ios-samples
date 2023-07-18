@@ -7,143 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D17F2362A664F0500454512 /* BasicAmazonIVSPlayerSetupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2352A664F0500454512 /* BasicAmazonIVSPlayerSetupApp.swift */; };
-		9D17F2382A664F0500454512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2372A664F0500454512 /* ContentView.swift */; };
-		9D17F23A2A664F0600454512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2392A664F0600454512 /* Assets.xcassets */; };
-		9D17F23D2A664F0600454512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F23C2A664F0600454512 /* Preview Assets.xcassets */; };
-		9D17F2452A66504300454512 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2442A66504300454512 /* PlayerView.swift */; };
-		9D17F2472A6650D000454512 /* PlayerViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2462A6650D000454512 /* PlayerViewWrapper.swift */; };
-		F31AA822CD7129A653955A8F /* Pods_BasicAmazonIVSPlayerSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F293FE6072B616F9A2941B /* Pods_BasicAmazonIVSPlayerSetup.framework */; };
+		9D17F2C82A6669C600454512 /* AmazonIVSPlayerBasicSetupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2C72A6669C600454512 /* AmazonIVSPlayerBasicSetupApp.swift */; };
+		9D17F2CA2A6669C600454512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2C92A6669C600454512 /* ContentView.swift */; };
+		9D17F2CC2A6669C700454512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2CB2A6669C700454512 /* Assets.xcassets */; };
+		9D17F2CF2A6669C700454512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2CE2A6669C700454512 /* Preview Assets.xcassets */; };
+		9D17F2D82A666A3400454512 /* PlayerViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2D62A6669D800454512 /* PlayerViewWrapper.swift */; };
+		9D17F2D92A666A3B00454512 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2D52A6669D800454512 /* PlayerView.swift */; };
+		A49504ECEF529BD71B83C651 /* Pods_AmazonIVSPlayerBasicSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FADDEE5D94096F4BF27321 /* Pods_AmazonIVSPlayerBasicSetup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E1C2EC46288C74637184FDB /* Pods-BasicAmazonIVSPlayerSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicAmazonIVSPlayerSetup.debug.xcconfig"; path = "Target Support Files/Pods-BasicAmazonIVSPlayerSetup/Pods-BasicAmazonIVSPlayerSetup.debug.xcconfig"; sourceTree = "<group>"; };
-		9D17F2322A664F0500454512 /* BasicAmazonIVSPlayerSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicAmazonIVSPlayerSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D17F2352A664F0500454512 /* BasicAmazonIVSPlayerSetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAmazonIVSPlayerSetupApp.swift; sourceTree = "<group>"; };
-		9D17F2372A664F0500454512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9D17F2392A664F0600454512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D17F23C2A664F0600454512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9D17F2442A66504300454512 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		9D17F2462A6650D000454512 /* PlayerViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewWrapper.swift; sourceTree = "<group>"; };
-		B7DE1BFB73BA892D2B8DF5B2 /* Pods-BasicAmazonIVSPlayerSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicAmazonIVSPlayerSetup.release.xcconfig"; path = "Target Support Files/Pods-BasicAmazonIVSPlayerSetup/Pods-BasicAmazonIVSPlayerSetup.release.xcconfig"; sourceTree = "<group>"; };
-		D2F293FE6072B616F9A2941B /* Pods_BasicAmazonIVSPlayerSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicAmazonIVSPlayerSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FADDEE5D94096F4BF27321 /* Pods_AmazonIVSPlayerBasicSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazonIVSPlayerBasicSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251D2A0D3DD834687DABF3D3 /* Pods-AmazonIVSPlayerBasicSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonIVSPlayerBasicSetup.debug.xcconfig"; path = "Target Support Files/Pods-AmazonIVSPlayerBasicSetup/Pods-AmazonIVSPlayerBasicSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		666CAC39FAC2AE122815006F /* Pods-AmazonIVSPlayerBasicSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonIVSPlayerBasicSetup.release.xcconfig"; path = "Target Support Files/Pods-AmazonIVSPlayerBasicSetup/Pods-AmazonIVSPlayerBasicSetup.release.xcconfig"; sourceTree = "<group>"; };
+		9D17F2C42A6669C600454512 /* AmazonIVSPlayerBasicSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonIVSPlayerBasicSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D17F2C72A6669C600454512 /* AmazonIVSPlayerBasicSetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonIVSPlayerBasicSetupApp.swift; sourceTree = "<group>"; };
+		9D17F2C92A6669C600454512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D17F2CB2A6669C700454512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D17F2CE2A6669C700454512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D17F2D52A6669D800454512 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		9D17F2D62A6669D800454512 /* PlayerViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D17F22F2A664F0500454512 /* Frameworks */ = {
+		9D17F2C12A6669C600454512 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31AA822CD7129A653955A8F /* Pods_BasicAmazonIVSPlayerSetup.framework in Frameworks */,
+				A49504ECEF529BD71B83C651 /* Pods_AmazonIVSPlayerBasicSetup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		243750C49112DC0FA9C48D81 /* Pods */ = {
+		543349F43927A45FBE4F90F6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E1C2EC46288C74637184FDB /* Pods-BasicAmazonIVSPlayerSetup.debug.xcconfig */,
-				B7DE1BFB73BA892D2B8DF5B2 /* Pods-BasicAmazonIVSPlayerSetup.release.xcconfig */,
+				251D2A0D3DD834687DABF3D3 /* Pods-AmazonIVSPlayerBasicSetup.debug.xcconfig */,
+				666CAC39FAC2AE122815006F /* Pods-AmazonIVSPlayerBasicSetup.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
-		9D17F2292A664F0500454512 = {
+		79174CA09178A8648B862DFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D17F2342A664F0500454512 /* BasicAmazonIVSPlayerSetup */,
-				9D17F2332A664F0500454512 /* Products */,
-				243750C49112DC0FA9C48D81 /* Pods */,
-				E985123807E04B6DF7973418 /* Frameworks */,
+				15FADDEE5D94096F4BF27321 /* Pods_AmazonIVSPlayerBasicSetup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D17F2BB2A6669C600454512 = {
+			isa = PBXGroup;
+			children = (
+				9D17F2C62A6669C600454512 /* AmazonIVSPlayerBasicSetup */,
+				9D17F2C52A6669C600454512 /* Products */,
+				543349F43927A45FBE4F90F6 /* Pods */,
+				79174CA09178A8648B862DFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9D17F2332A664F0500454512 /* Products */ = {
+		9D17F2C52A6669C600454512 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D17F2322A664F0500454512 /* BasicAmazonIVSPlayerSetup.app */,
+				9D17F2C42A6669C600454512 /* AmazonIVSPlayerBasicSetup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D17F2342A664F0500454512 /* BasicAmazonIVSPlayerSetup */ = {
+		9D17F2C62A6669C600454512 /* AmazonIVSPlayerBasicSetup */ = {
 			isa = PBXGroup;
 			children = (
-				9D17F2432A66501F00454512 /* Helper */,
-				9D17F2352A664F0500454512 /* BasicAmazonIVSPlayerSetupApp.swift */,
-				9D17F2372A664F0500454512 /* ContentView.swift */,
-				9D17F2392A664F0600454512 /* Assets.xcassets */,
-				9D17F23B2A664F0600454512 /* Preview Content */,
+				9D17F2D72A6669D800454512 /* Helper */,
+				9D17F2C72A6669C600454512 /* AmazonIVSPlayerBasicSetupApp.swift */,
+				9D17F2C92A6669C600454512 /* ContentView.swift */,
+				9D17F2CB2A6669C700454512 /* Assets.xcassets */,
+				9D17F2CD2A6669C700454512 /* Preview Content */,
 			);
-			path = BasicAmazonIVSPlayerSetup;
+			path = AmazonIVSPlayerBasicSetup;
 			sourceTree = "<group>";
 		};
-		9D17F23B2A664F0600454512 /* Preview Content */ = {
+		9D17F2CD2A6669C700454512 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9D17F23C2A664F0600454512 /* Preview Assets.xcassets */,
+				9D17F2CE2A6669C700454512 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9D17F2432A66501F00454512 /* Helper */ = {
+		9D17F2D72A6669D800454512 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				9D17F2442A66504300454512 /* PlayerView.swift */,
-				9D17F2462A6650D000454512 /* PlayerViewWrapper.swift */,
+				9D17F2D52A6669D800454512 /* PlayerView.swift */,
+				9D17F2D62A6669D800454512 /* PlayerViewWrapper.swift */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		E985123807E04B6DF7973418 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D2F293FE6072B616F9A2941B /* Pods_BasicAmazonIVSPlayerSetup.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D17F2312A664F0500454512 /* BasicAmazonIVSPlayerSetup */ = {
+		9D17F2C32A6669C600454512 /* AmazonIVSPlayerBasicSetup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D17F2402A664F0600454512 /* Build configuration list for PBXNativeTarget "BasicAmazonIVSPlayerSetup" */;
+			buildConfigurationList = 9D17F2D22A6669C700454512 /* Build configuration list for PBXNativeTarget "AmazonIVSPlayerBasicSetup" */;
 			buildPhases = (
-				1E88F6D8DC5A4EF779162D6F /* [CP] Check Pods Manifest.lock */,
-				9D17F22E2A664F0500454512 /* Sources */,
-				9D17F22F2A664F0500454512 /* Frameworks */,
-				9D17F2302A664F0500454512 /* Resources */,
-				30E097CF77237C3CAD471D04 /* [CP] Embed Pods Frameworks */,
+				DC6F6B1E2B6238EC579D528C /* [CP] Check Pods Manifest.lock */,
+				9D17F2C02A6669C600454512 /* Sources */,
+				9D17F2C12A6669C600454512 /* Frameworks */,
+				9D17F2C22A6669C600454512 /* Resources */,
+				4751B18E383C9F080975F01D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BasicAmazonIVSPlayerSetup;
-			productName = BasicAmazonIVSPlayerSetup;
-			productReference = 9D17F2322A664F0500454512 /* BasicAmazonIVSPlayerSetup.app */;
+			name = AmazonIVSPlayerBasicSetup;
+			productName = AmazonIVSPlayerBasicSetup;
+			productReference = 9D17F2C42A6669C600454512 /* AmazonIVSPlayerBasicSetup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D17F22A2A664F0500454512 /* Project object */ = {
+		9D17F2BC2A6669C600454512 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					9D17F2312A664F0500454512 = {
+					9D17F2C32A6669C600454512 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 9D17F22D2A664F0500454512 /* Build configuration list for PBXProject "BasicAmazonIVSPlayerSetup" */;
+			buildConfigurationList = 9D17F2BF2A6669C600454512 /* Build configuration list for PBXProject "AmazonIVSPlayerBasicSetup" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,30 +151,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 9D17F2292A664F0500454512;
-			productRefGroup = 9D17F2332A664F0500454512 /* Products */;
+			mainGroup = 9D17F2BB2A6669C600454512;
+			productRefGroup = 9D17F2C52A6669C600454512 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D17F2312A664F0500454512 /* BasicAmazonIVSPlayerSetup */,
+				9D17F2C32A6669C600454512 /* AmazonIVSPlayerBasicSetup */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D17F2302A664F0500454512 /* Resources */ = {
+		9D17F2C22A6669C600454512 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D17F23D2A664F0600454512 /* Preview Assets.xcassets in Resources */,
-				9D17F23A2A664F0600454512 /* Assets.xcassets in Resources */,
+				9D17F2CF2A6669C700454512 /* Preview Assets.xcassets in Resources */,
+				9D17F2CC2A6669C700454512 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E88F6D8DC5A4EF779162D6F /* [CP] Check Pods Manifest.lock */ = {
+		4751B18E383C9F080975F01D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmazonIVSPlayerBasicSetup/Pods-AmazonIVSPlayerBasicSetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmazonIVSPlayerBasicSetup/Pods-AmazonIVSPlayerBasicSetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AmazonIVSPlayerBasicSetup/Pods-AmazonIVSPlayerBasicSetup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6F6B1E2B6238EC579D528C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,48 +206,31 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BasicAmazonIVSPlayerSetup-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AmazonIVSPlayerBasicSetup-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		30E097CF77237C3CAD471D04 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicAmazonIVSPlayerSetup/Pods-BasicAmazonIVSPlayerSetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicAmazonIVSPlayerSetup/Pods-BasicAmazonIVSPlayerSetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicAmazonIVSPlayerSetup/Pods-BasicAmazonIVSPlayerSetup-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D17F22E2A664F0500454512 /* Sources */ = {
+		9D17F2C02A6669C600454512 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D17F2452A66504300454512 /* PlayerView.swift in Sources */,
-				9D17F2382A664F0500454512 /* ContentView.swift in Sources */,
-				9D17F2362A664F0500454512 /* BasicAmazonIVSPlayerSetupApp.swift in Sources */,
-				9D17F2472A6650D000454512 /* PlayerViewWrapper.swift in Sources */,
+				9D17F2CA2A6669C600454512 /* ContentView.swift in Sources */,
+				9D17F2D82A666A3400454512 /* PlayerViewWrapper.swift in Sources */,
+				9D17F2C82A6669C600454512 /* AmazonIVSPlayerBasicSetupApp.swift in Sources */,
+				9D17F2D92A666A3B00454512 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9D17F23E2A664F0600454512 /* Debug */ = {
+		9D17F2D02A6669C700454512 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		9D17F23F2A664F0600454512 /* Release */ = {
+		9D17F2D12A6669C700454512 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,15 +344,15 @@
 			};
 			name = Release;
 		};
-		9D17F2412A664F0600454512 /* Debug */ = {
+		9D17F2D32A6669C700454512 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E1C2EC46288C74637184FDB /* Pods-BasicAmazonIVSPlayerSetup.debug.xcconfig */;
+			baseConfigurationReference = 251D2A0D3DD834687DABF3D3 /* Pods-AmazonIVSPlayerBasicSetup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BasicAmazonIVSPlayerSetup/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AmazonIVSPlayerBasicSetup/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -365,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.basic.amazonivs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.sample.amazonivs.basic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,15 +373,15 @@
 			};
 			name = Debug;
 		};
-		9D17F2422A664F0600454512 /* Release */ = {
+		9D17F2D42A6669C700454512 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7DE1BFB73BA892D2B8DF5B2 /* Pods-BasicAmazonIVSPlayerSetup.release.xcconfig */;
+			baseConfigurationReference = 666CAC39FAC2AE122815006F /* Pods-AmazonIVSPlayerBasicSetup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BasicAmazonIVSPlayerSetup/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AmazonIVSPlayerBasicSetup/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -394,7 +394,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.basic.amazonivs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.sample.amazonivs.basic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -405,25 +405,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D17F22D2A664F0500454512 /* Build configuration list for PBXProject "BasicAmazonIVSPlayerSetup" */ = {
+		9D17F2BF2A6669C600454512 /* Build configuration list for PBXProject "AmazonIVSPlayerBasicSetup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D17F23E2A664F0600454512 /* Debug */,
-				9D17F23F2A664F0600454512 /* Release */,
+				9D17F2D02A6669C700454512 /* Debug */,
+				9D17F2D12A6669C700454512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D17F2402A664F0600454512 /* Build configuration list for PBXNativeTarget "BasicAmazonIVSPlayerSetup" */ = {
+		9D17F2D22A6669C700454512 /* Build configuration list for PBXNativeTarget "AmazonIVSPlayerBasicSetup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D17F2412A664F0600454512 /* Debug */,
-				9D17F2422A664F0600454512 /* Release */,
+				9D17F2D32A6669C700454512 /* Debug */,
+				9D17F2D42A6669C700454512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D17F22A2A664F0500454512 /* Project object */;
+	rootObject = 9D17F2BC2A6669C600454512 /* Project object */;
 }
