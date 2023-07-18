@@ -7,129 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D17F26F2A665CC200454512 /* PlaylistBitmovinPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F26E2A665CC200454512 /* PlaylistBitmovinPlayerApp.swift */; };
-		9D17F2712A665CC200454512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2702A665CC200454512 /* ContentView.swift */; };
-		9D17F2732A665CC300454512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2722A665CC300454512 /* Assets.xcassets */; };
-		9D17F2762A665CC300454512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2752A665CC300454512 /* Preview Assets.xcassets */; };
-		F33386DDF71540D47F47AFC6 /* Pods_PlaylistBitmovinPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C55811AD595CD8F308BBBCC /* Pods_PlaylistBitmovinPlayer.framework */; };
+		9D17F2E72A666AA000454512 /* BitmovinPlayerPlaylistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2E62A666AA000454512 /* BitmovinPlayerPlaylistApp.swift */; };
+		9D17F2E92A666AA000454512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2E82A666AA000454512 /* ContentView.swift */; };
+		9D17F2EB2A666AA100454512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2EA2A666AA100454512 /* Assets.xcassets */; };
+		9D17F2EE2A666AA100454512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2ED2A666AA100454512 /* Preview Assets.xcassets */; };
+		E01EEEE68EC01E53CCBF2C28 /* Pods_BitmovinPlayerPlaylist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6625B9A1783CC13F8FFF2790 /* Pods_BitmovinPlayerPlaylist.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0653F0B808B2C9667A7DC73E /* Pods-PlaylistBitmovinPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaylistBitmovinPlayer.debug.xcconfig"; path = "Target Support Files/Pods-PlaylistBitmovinPlayer/Pods-PlaylistBitmovinPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		7C55811AD595CD8F308BBBCC /* Pods_PlaylistBitmovinPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaylistBitmovinPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D17F26B2A665CC200454512 /* PlaylistBitmovinPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistBitmovinPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D17F26E2A665CC200454512 /* PlaylistBitmovinPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistBitmovinPlayerApp.swift; sourceTree = "<group>"; };
-		9D17F2702A665CC200454512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9D17F2722A665CC300454512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D17F2752A665CC300454512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F17CD127C3870056DC1DC3ED /* Pods-PlaylistBitmovinPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaylistBitmovinPlayer.release.xcconfig"; path = "Target Support Files/Pods-PlaylistBitmovinPlayer/Pods-PlaylistBitmovinPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		2D5156655F34C8516476D59C /* Pods-BitmovinPlayerPlaylist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitmovinPlayerPlaylist.debug.xcconfig"; path = "Target Support Files/Pods-BitmovinPlayerPlaylist/Pods-BitmovinPlayerPlaylist.debug.xcconfig"; sourceTree = "<group>"; };
+		6625B9A1783CC13F8FFF2790 /* Pods_BitmovinPlayerPlaylist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitmovinPlayerPlaylist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B909FE074015182A7D6956 /* Pods-BitmovinPlayerPlaylist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitmovinPlayerPlaylist.release.xcconfig"; path = "Target Support Files/Pods-BitmovinPlayerPlaylist/Pods-BitmovinPlayerPlaylist.release.xcconfig"; sourceTree = "<group>"; };
+		9D17F2E32A666AA000454512 /* BitmovinPlayerPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitmovinPlayerPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D17F2E62A666AA000454512 /* BitmovinPlayerPlaylistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmovinPlayerPlaylistApp.swift; sourceTree = "<group>"; };
+		9D17F2E82A666AA000454512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D17F2EA2A666AA100454512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D17F2ED2A666AA100454512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D17F2682A665CC200454512 /* Frameworks */ = {
+		9D17F2E02A666AA000454512 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33386DDF71540D47F47AFC6 /* Pods_PlaylistBitmovinPlayer.framework in Frameworks */,
+				E01EEEE68EC01E53CCBF2C28 /* Pods_BitmovinPlayerPlaylist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30CD75A70A0F546441E823D6 /* Frameworks */ = {
+		0A7E65D42DF2F86B186C4849 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7C55811AD595CD8F308BBBCC /* Pods_PlaylistBitmovinPlayer.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9D17F2622A665CC200454512 = {
-			isa = PBXGroup;
-			children = (
-				9D17F26D2A665CC200454512 /* PlaylistBitmovinPlayer */,
-				9D17F26C2A665CC200454512 /* Products */,
-				E4D9CC8E635AA9591CD4710B /* Pods */,
-				30CD75A70A0F546441E823D6 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		9D17F26C2A665CC200454512 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9D17F26B2A665CC200454512 /* PlaylistBitmovinPlayer.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9D17F26D2A665CC200454512 /* PlaylistBitmovinPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				9D17F26E2A665CC200454512 /* PlaylistBitmovinPlayerApp.swift */,
-				9D17F2702A665CC200454512 /* ContentView.swift */,
-				9D17F2722A665CC300454512 /* Assets.xcassets */,
-				9D17F2742A665CC300454512 /* Preview Content */,
-			);
-			path = PlaylistBitmovinPlayer;
-			sourceTree = "<group>";
-		};
-		9D17F2742A665CC300454512 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9D17F2752A665CC300454512 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E4D9CC8E635AA9591CD4710B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0653F0B808B2C9667A7DC73E /* Pods-PlaylistBitmovinPlayer.debug.xcconfig */,
-				F17CD127C3870056DC1DC3ED /* Pods-PlaylistBitmovinPlayer.release.xcconfig */,
+				2D5156655F34C8516476D59C /* Pods-BitmovinPlayerPlaylist.debug.xcconfig */,
+				92B909FE074015182A7D6956 /* Pods-BitmovinPlayerPlaylist.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
+		9D17F2DA2A666AA000454512 = {
+			isa = PBXGroup;
+			children = (
+				9D17F2E52A666AA000454512 /* BitmovinPlayerPlaylist */,
+				9D17F2E42A666AA000454512 /* Products */,
+				0A7E65D42DF2F86B186C4849 /* Pods */,
+				B442DDC514CB00712889E377 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D17F2E42A666AA000454512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D17F2E32A666AA000454512 /* BitmovinPlayerPlaylist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D17F2E52A666AA000454512 /* BitmovinPlayerPlaylist */ = {
+			isa = PBXGroup;
+			children = (
+				9D17F2E62A666AA000454512 /* BitmovinPlayerPlaylistApp.swift */,
+				9D17F2E82A666AA000454512 /* ContentView.swift */,
+				9D17F2EA2A666AA100454512 /* Assets.xcassets */,
+				9D17F2EC2A666AA100454512 /* Preview Content */,
+			);
+			path = BitmovinPlayerPlaylist;
+			sourceTree = "<group>";
+		};
+		9D17F2EC2A666AA100454512 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D17F2ED2A666AA100454512 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B442DDC514CB00712889E377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6625B9A1783CC13F8FFF2790 /* Pods_BitmovinPlayerPlaylist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D17F26A2A665CC200454512 /* PlaylistBitmovinPlayer */ = {
+		9D17F2E22A666AA000454512 /* BitmovinPlayerPlaylist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D17F2792A665CC300454512 /* Build configuration list for PBXNativeTarget "PlaylistBitmovinPlayer" */;
+			buildConfigurationList = 9D17F2F12A666AA100454512 /* Build configuration list for PBXNativeTarget "BitmovinPlayerPlaylist" */;
 			buildPhases = (
-				3780A572DBCA4981895A504C /* [CP] Check Pods Manifest.lock */,
-				9D17F2672A665CC200454512 /* Sources */,
-				9D17F2682A665CC200454512 /* Frameworks */,
-				9D17F2692A665CC200454512 /* Resources */,
-				74DB82ABF86DD70EC8DB40DE /* [CP] Embed Pods Frameworks */,
+				B72435F218A85CAC386AAA18 /* [CP] Check Pods Manifest.lock */,
+				9D17F2DF2A666AA000454512 /* Sources */,
+				9D17F2E02A666AA000454512 /* Frameworks */,
+				9D17F2E12A666AA000454512 /* Resources */,
+				8CCA624CC3353CED4E99A360 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PlaylistBitmovinPlayer;
-			productName = PlaylistBitmovinPlayer;
-			productReference = 9D17F26B2A665CC200454512 /* PlaylistBitmovinPlayer.app */;
+			name = BitmovinPlayerPlaylist;
+			productName = BitmovinPlayerPlaylist;
+			productReference = 9D17F2E32A666AA000454512 /* BitmovinPlayerPlaylist.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D17F2632A665CC200454512 /* Project object */ = {
+		9D17F2DB2A666AA000454512 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					9D17F26A2A665CC200454512 = {
+					9D17F2E22A666AA000454512 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 9D17F2662A665CC200454512 /* Build configuration list for PBXProject "PlaylistBitmovinPlayer" */;
+			buildConfigurationList = 9D17F2DE2A666AA000454512 /* Build configuration list for PBXProject "BitmovinPlayerPlaylist" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,30 +137,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 9D17F2622A665CC200454512;
-			productRefGroup = 9D17F26C2A665CC200454512 /* Products */;
+			mainGroup = 9D17F2DA2A666AA000454512;
+			productRefGroup = 9D17F2E42A666AA000454512 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D17F26A2A665CC200454512 /* PlaylistBitmovinPlayer */,
+				9D17F2E22A666AA000454512 /* BitmovinPlayerPlaylist */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D17F2692A665CC200454512 /* Resources */ = {
+		9D17F2E12A666AA000454512 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D17F2762A665CC300454512 /* Preview Assets.xcassets in Resources */,
-				9D17F2732A665CC300454512 /* Assets.xcassets in Resources */,
+				9D17F2EE2A666AA100454512 /* Preview Assets.xcassets in Resources */,
+				9D17F2EB2A666AA100454512 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3780A572DBCA4981895A504C /* [CP] Check Pods Manifest.lock */ = {
+		8CCA624CC3353CED4E99A360 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitmovinPlayerPlaylist/Pods-BitmovinPlayerPlaylist-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitmovinPlayerPlaylist/Pods-BitmovinPlayerPlaylist-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitmovinPlayerPlaylist/Pods-BitmovinPlayerPlaylist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72435F218A85CAC386AAA18 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,46 +192,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PlaylistBitmovinPlayer-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BitmovinPlayerPlaylist-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		74DB82ABF86DD70EC8DB40DE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PlaylistBitmovinPlayer/Pods-PlaylistBitmovinPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PlaylistBitmovinPlayer/Pods-PlaylistBitmovinPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlaylistBitmovinPlayer/Pods-PlaylistBitmovinPlayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D17F2672A665CC200454512 /* Sources */ = {
+		9D17F2DF2A666AA000454512 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D17F2712A665CC200454512 /* ContentView.swift in Sources */,
-				9D17F26F2A665CC200454512 /* PlaylistBitmovinPlayerApp.swift in Sources */,
+				9D17F2E92A666AA000454512 /* ContentView.swift in Sources */,
+				9D17F2E72A666AA000454512 /* BitmovinPlayerPlaylistApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9D17F2772A665CC300454512 /* Debug */ = {
+		9D17F2EF2A666AA100454512 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		9D17F2782A665CC300454512 /* Release */ = {
+		9D17F2F02A666AA100454512 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,15 +328,15 @@
 			};
 			name = Release;
 		};
-		9D17F27A2A665CC300454512 /* Debug */ = {
+		9D17F2F22A666AA100454512 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0653F0B808B2C9667A7DC73E /* Pods-PlaylistBitmovinPlayer.debug.xcconfig */;
+			baseConfigurationReference = 2D5156655F34C8516476D59C /* Pods-BitmovinPlayerPlaylist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PlaylistBitmovinPlayer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BitmovinPlayerPlaylist/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -349,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.playlist.bitmovinplayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.bitmovinplayer.playlist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,15 +357,15 @@
 			};
 			name = Debug;
 		};
-		9D17F27B2A665CC300454512 /* Release */ = {
+		9D17F2F32A666AA100454512 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F17CD127C3870056DC1DC3ED /* Pods-PlaylistBitmovinPlayer.release.xcconfig */;
+			baseConfigurationReference = 92B909FE074015182A7D6956 /* Pods-BitmovinPlayerPlaylist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PlaylistBitmovinPlayer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BitmovinPlayerPlaylist/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -378,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.playlist.bitmovinplayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.bitmovinplayer.playlist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -389,25 +389,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D17F2662A665CC200454512 /* Build configuration list for PBXProject "PlaylistBitmovinPlayer" */ = {
+		9D17F2DE2A666AA000454512 /* Build configuration list for PBXProject "BitmovinPlayerPlaylist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D17F2772A665CC300454512 /* Debug */,
-				9D17F2782A665CC300454512 /* Release */,
+				9D17F2EF2A666AA100454512 /* Debug */,
+				9D17F2F02A666AA100454512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D17F2792A665CC300454512 /* Build configuration list for PBXNativeTarget "PlaylistBitmovinPlayer" */ = {
+		9D17F2F12A666AA100454512 /* Build configuration list for PBXNativeTarget "BitmovinPlayerPlaylist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D17F27A2A665CC300454512 /* Debug */,
-				9D17F27B2A665CC300454512 /* Release */,
+				9D17F2F22A666AA100454512 /* Debug */,
+				9D17F2F32A666AA100454512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D17F2632A665CC200454512 /* Project object */;
+	rootObject = 9D17F2DB2A666AA000454512 /* Project object */;
 }

@@ -27,9 +27,9 @@ In addition to that you have to log in to [https://bitmovin.com/dashboard](https
 
 
     com.bitmovin.analytics.samples.bitmovinplayer.basic
+    com.bitmovin.analytics.samples.bitmovinplayer.playlist
     com.bitmovin.analytics.samples.avfoundation.basic
-    com.bitmovin.analytics.sample.amazonivs.basic
-    com.bitmovin.analytics.samples.playlist.bitmovinplayer
+    com.bitmovin.analytics.samples.amazonivs.basic
 
 ### Sample App Setup Instructions with Bitmovin player
 
