@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BasicAmazonIVSPlayerSetup/BasicAmazonIVSPlayerSetup.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BasicAVFoundationPlayerSetup/BasicAVFoundationPlayerSetup.xcodeproj">
    </FileRef>
    <FileRef
