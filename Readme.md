@@ -26,7 +26,7 @@ Please execute `pod install --repo-update` to properly initialize the workspace.
 In addition to that you have to log in to [https://bitmovin.com/dashboard](https://bitmovin.com/dashboard), where you have to add the following bundle identifier of the sample application as an allowed domain under `Analytics -> Licenses`:
 
 
-    com.bitmovin.analytics.samples.basic.bitmovinplayer
+    com.bitmovin.analytics.samples.bitmovinplayer.basic
     com.bitmovin.analytics.samples.basic.avplayer
     com.bitmovin.analytics.samples.basic.amazonivs
     com.bitmovin.analytics.samples.playlist.bitmovinplayer

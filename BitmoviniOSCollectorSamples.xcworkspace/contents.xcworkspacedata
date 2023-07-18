@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PlaylistBitmovinPlayer/PlaylistBitmovinPlayer.xcodeproj">
+      location = "group:BitmovinPlayerBasicSetup/BitmovinPlayerBasicSetup.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:BasicBitmovinPlayerSetup/BasicBitmovinPlayerSetup.xcodeproj">
+      location = "group:PlaylistBitmovinPlayer/PlaylistBitmovinPlayer.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:BasicAmazonIVSPlayerSetup/BasicAmazonIVSPlayerSetup.xcodeproj">

@@ -22,8 +22,8 @@ def amazon_ivs_player
   pod 'AmazonIVSPlayer', '1.18.0'
 end
 
-target 'BasicBitmovinPlayerSetup' do
-  project 'BasicBitmovinPlayerSetup/BasicBitmovinPlayerSetup.xcodeproj'
+target 'BitmovinPlayerBasicSetup' do
+  project 'BitmovinPlayerBasicSetup/BitmovinPlayerBasicSetup.xcodeproj'
   bitmovin_player
   analytics_collector
 end
