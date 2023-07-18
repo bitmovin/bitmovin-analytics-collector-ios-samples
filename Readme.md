@@ -7,6 +7,7 @@ This repository contains sample apps which are using the Bitmovin Player iOS SDK
 - [bitmovin-analytics-collector-ios-samples](#bitmovin-analytics-collector-ios-samples)
   - [Available Sample Apps](#available-sample-apps)
     - [Basics](#basics)
+    - [Playlist](#playlist)
   - [Sample App Setup Instructions](#sample-app-setup-instructions)
     - [Sample App Setup Instructions with Bitmovin player](#sample-app-setup-instructions-with-bitmovin-player)
   - [Documentation And Release Notes](#documentation-and-release-notes)
@@ -16,9 +17,12 @@ This repository contains sample apps which are using the Bitmovin Player iOS SDK
 ## Available Sample Apps
 
 ### Basics
-+  **BasicBitmovinPlayerSetup** Shows how to set up the Analytics collector for the Bitmovin player
-+  **BasicAVFoundationPlayerSetup** Shows how to set up the Analytics collector for the AVFoundation player
-+  **BasicAmazonIVSPlayerSetup** Shows how to set up the Analytics collector for the Amazon IVS player
++  **BitmovinPlayerBasicSetup** Shows how to set up the Analytics collector for the Bitmovin player
++  **AVFoundationPlayerBasicSetup** Shows how to set up the Analytics collector for the AVFoundation player
++  **AmazonIVSPlayerBasicSetup** Shows how to set up the Analytics collector for the Amazon IVS player
+
+### Playlist
++  **BitmovinPlayerPlaylist** Shows how to setup metadata information for multiple sources 
 
 ## Sample App Setup Instructions
 Please execute `pod install --repo-update` to properly initialize the workspace. 
