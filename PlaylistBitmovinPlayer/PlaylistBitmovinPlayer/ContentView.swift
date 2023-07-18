@@ -32,6 +32,53 @@ struct ContentView: View {
         collector = BitmovinPlayerCollectorFactory.create(config: analyticsConfig)
     }
 
+    private func loadPlaylistWithMetadata() {
+        let playlistOptions = PlaylistOptions(preloadAllSources: false)
+
+        // source 1 setup
+        let redbullSource = SourceFactory.create(from: SourceConfig(url: URL(string: "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8")!, type: .hls))
+
+        // apply information about the video
+        let redbullMetadata = SourceMetadata(
+            videoId: "redbull_art_of_motion",
+            title: "Redbull - Art of Motion",
+            path: "vod/redbull",
+            isLive: false
+        )
+
+        // connect the metadata with the source
+        collector.apply(
+            sourceMetadata: redbullMetadata,
+            for: redbullSource
+        )
+
+        // source 2 setup
+        let sintelSource = SourceFactory.create(from: SourceConfig(url: URL(string: "https://bitmovin-a.akamaihd.net/content/sintel/hls/playlist.m3u8")!, type: .hls))
+
+        // apply information about the video
+        let sintelMetadata = SourceMetadata(
+            videoId: "sintel",
+            title: "Sintel",
+            path: "vod/sintel",
+            isLive: false
+        )
+
+        // connect the metadata with the source
+        collector.apply(
+            sourceMetadata: sintelMetadata,
+            for: sintelSource
+        )
+
+        let playlist = PlaylistConfig(
+            sources: [redbullSource, sintelSource],
+            options: playlistOptions
+        )
+
+        player.load(playlistConfig: playlist)
+        player.play()
+    }
+
+
     var body: some View {
         VStack {
             ZStack {
@@ -45,11 +92,12 @@ struct ContentView: View {
         }
         .padding()
         .onAppear {
+
             // attach collector before source load
             collector.attach(to: player)
 
             // load source
-            player.load(sourceConfig: sourceConfig)
+            loadPlaylistWithMetadata()
         }
     }
 }

@@ -23,7 +23,7 @@ struct ContentView: View {
         self.wrapper = PlayerViewWrapper()
         wrapper.player = player
 
-        // Create config
+        // Create analytics config
         let config = AnalyticsConfig(licenseKey: "<Your license key>")
 
         // Create analytics collector
@@ -36,7 +36,7 @@ struct ContentView: View {
         }
         .padding()
         .onAppear() {
-            // attach before source load
+            // attach collector before source load
             collector.attach(to: player)
 
             // load source

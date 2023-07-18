@@ -38,3 +38,9 @@ target 'BasicAmazonIVSPlayerSetup' do
   analytics_collector
   amazon_ivs_player
 end
+
+target 'PlaylistBitmovinPlayer' do
+  project 'PlaylistBitmovinPlayer/PlaylistBitmovinPlayer.xcodeproj'
+  bitmovin_player
+  analytics_collector
+end

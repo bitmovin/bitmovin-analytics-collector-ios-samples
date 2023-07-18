@@ -20,7 +20,7 @@ struct ContentView: View {
         // Create player
         player = AVPlayer()
 
-        // Create player view
+        // Custom Wrapper for swift ui display
         wrapper = PlayerViewWrapper()
         wrapper.player = player
 
@@ -36,8 +36,10 @@ struct ContentView: View {
         }
         .padding()
         .onAppear() {
-            // attache before source load
+            // attach collector before source load
             collector.attach(to: player)
+
+            // load source
             player.replaceCurrentItem(with: AVPlayerItem(url: streamUrl!))
             player.play()
         }
