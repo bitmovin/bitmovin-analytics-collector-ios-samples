@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BasicBitmovinPlayerSetup/BasicBitmovinPlayerSetup.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BasicAmazonIVSPlayerSetup/BasicAmazonIVSPlayerSetup.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:BasicAVFoundationPlayerSetup/BasicAVFoundationPlayerSetup.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:BasicSetup/BasicSetup.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

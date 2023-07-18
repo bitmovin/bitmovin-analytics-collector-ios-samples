@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  BasicSetup
-//
-//  Created by Thomas Sablattnig on 17.07.23.
-//
-
 import SwiftUI
 import BitmovinPlayer
 import BitmovinCollector
