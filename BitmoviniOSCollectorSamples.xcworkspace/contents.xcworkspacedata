@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AVFoundationPlayerBasicSetup/AVFoundationPlayerBasicSetup.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BitmovinPlayerBasicSetup/BitmovinPlayerBasicSetup.xcodeproj">
    </FileRef>
    <FileRef

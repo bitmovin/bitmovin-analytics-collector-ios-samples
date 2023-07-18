@@ -7,104 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DE812152A654ED40065D224 /* BasicAVFoundationPlayerSetupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE812142A654ED40065D224 /* BasicAVFoundationPlayerSetupApp.swift */; };
-		9DE812172A654ED40065D224 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE812162A654ED40065D224 /* ContentView.swift */; };
-		9DE812192A654ED60065D224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE812182A654ED60065D224 /* Assets.xcassets */; };
-		9DE8121C2A654ED60065D224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8121B2A654ED60065D224 /* Preview Assets.xcassets */; };
-		9DE812242A6550240065D224 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE812232A6550240065D224 /* PlayerUIView.swift */; };
-		9DE812262A6550D30065D224 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE812252A6550D30065D224 /* PlayerView.swift */; };
-		9DE812282A65517B0065D224 /* PlayerViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE812272A65517B0065D224 /* PlayerViewWrapper.swift */; };
-		BB705210CA3ECD8640958255 /* Pods_BasicAVFoundationPlayerSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F58F5D394DCACC2C583FBB3 /* Pods_BasicAVFoundationPlayerSetup.framework */; };
+		380100271768D9B80A2FC9A2 /* Pods_AVFoundationPlayerBasicSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F0A2EA9D9FA2883A6E430C /* Pods_AVFoundationPlayerBasicSetup.framework */; };
+		9D17F2A32A6668E300454512 /* AVFoundationPlayerBasicSetupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2A22A6668E300454512 /* AVFoundationPlayerBasicSetupApp.swift */; };
+		9D17F2A52A6668E300454512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2A42A6668E300454512 /* ContentView.swift */; };
+		9D17F2A72A6668E400454512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2A62A6668E400454512 /* Assets.xcassets */; };
+		9D17F2AA2A6668E400454512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17F2A92A6668E400454512 /* Preview Assets.xcassets */; };
+		9D17F2B82A66691400454512 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2B52A66691400454512 /* PlayerUIView.swift */; };
+		9D17F2B92A66691400454512 /* PlayerViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2B62A66691400454512 /* PlayerViewWrapper.swift */; };
+		9D17F2BA2A66691400454512 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17F2B72A66691400454512 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F58F5D394DCACC2C583FBB3 /* Pods_BasicAVFoundationPlayerSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicAVFoundationPlayerSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92873BB7B07B774FEADAB200 /* Pods-BasicAVFoundationPlayerSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicAVFoundationPlayerSetup.release.xcconfig"; path = "Target Support Files/Pods-BasicAVFoundationPlayerSetup/Pods-BasicAVFoundationPlayerSetup.release.xcconfig"; sourceTree = "<group>"; };
-		9DE812112A654ED40065D224 /* BasicAVFoundationPlayerSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicAVFoundationPlayerSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DE812142A654ED40065D224 /* BasicAVFoundationPlayerSetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAVFoundationPlayerSetupApp.swift; sourceTree = "<group>"; };
-		9DE812162A654ED40065D224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9DE812182A654ED60065D224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DE8121B2A654ED60065D224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9DE812232A6550240065D224 /* PlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
-		9DE812252A6550D30065D224 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		9DE812272A65517B0065D224 /* PlayerViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewWrapper.swift; sourceTree = "<group>"; };
-		EEA8583DECBE507D473DE210 /* Pods-BasicAVFoundationPlayerSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicAVFoundationPlayerSetup.debug.xcconfig"; path = "Target Support Files/Pods-BasicAVFoundationPlayerSetup/Pods-BasicAVFoundationPlayerSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		202C52BD61A391DE0D8B06A8 /* Pods-AVFoundationPlayerBasicSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundationPlayerBasicSetup.debug.xcconfig"; path = "Target Support Files/Pods-AVFoundationPlayerBasicSetup/Pods-AVFoundationPlayerBasicSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		37D975F569E1D2D76CF59DEF /* Pods-AVFoundationPlayerBasicSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundationPlayerBasicSetup.release.xcconfig"; path = "Target Support Files/Pods-AVFoundationPlayerBasicSetup/Pods-AVFoundationPlayerBasicSetup.release.xcconfig"; sourceTree = "<group>"; };
+		76F0A2EA9D9FA2883A6E430C /* Pods_AVFoundationPlayerBasicSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFoundationPlayerBasicSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D17F29F2A6668E300454512 /* AVFoundationPlayerBasicSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationPlayerBasicSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D17F2A22A6668E300454512 /* AVFoundationPlayerBasicSetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationPlayerBasicSetupApp.swift; sourceTree = "<group>"; };
+		9D17F2A42A6668E300454512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D17F2A62A6668E400454512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D17F2A92A6668E400454512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D17F2B52A66691400454512 /* PlayerUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		9D17F2B62A66691400454512 /* PlayerViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewWrapper.swift; sourceTree = "<group>"; };
+		9D17F2B72A66691400454512 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9DE8120E2A654ED40065D224 /* Frameworks */ = {
+		9D17F29C2A6668E300454512 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB705210CA3ECD8640958255 /* Pods_BasicAVFoundationPlayerSetup.framework in Frameworks */,
+				380100271768D9B80A2FC9A2 /* Pods_AVFoundationPlayerBasicSetup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22BE60234B4B00E591CFA8E5 /* Frameworks */ = {
+		47FB7B61EA79171F210F7379 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3F58F5D394DCACC2C583FBB3 /* Pods_BasicAVFoundationPlayerSetup.framework */,
+				76F0A2EA9D9FA2883A6E430C /* Pods_AVFoundationPlayerBasicSetup.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9DE812082A654ED40065D224 = {
+		9D17F2962A6668E300454512 = {
 			isa = PBXGroup;
 			children = (
-				9DE812132A654ED40065D224 /* BasicAVFoundationPlayerSetup */,
-				9DE812122A654ED40065D224 /* Products */,
-				F91E05C55B8C7526B58C47B0 /* Pods */,
-				22BE60234B4B00E591CFA8E5 /* Frameworks */,
+				9D17F2A12A6668E300454512 /* AVFoundationPlayerBasicSetup */,
+				9D17F2A02A6668E300454512 /* Products */,
+				FC95FEA17C3B2EED6249CE18 /* Pods */,
+				47FB7B61EA79171F210F7379 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9DE812122A654ED40065D224 /* Products */ = {
+		9D17F2A02A6668E300454512 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DE812112A654ED40065D224 /* BasicAVFoundationPlayerSetup.app */,
+				9D17F29F2A6668E300454512 /* AVFoundationPlayerBasicSetup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9DE812132A654ED40065D224 /* BasicAVFoundationPlayerSetup */ = {
+		9D17F2A12A6668E300454512 /* AVFoundationPlayerBasicSetup */ = {
 			isa = PBXGroup;
 			children = (
-				9DE812222A6550140065D224 /* Helper */,
-				9DE812142A654ED40065D224 /* BasicAVFoundationPlayerSetupApp.swift */,
-				9DE812162A654ED40065D224 /* ContentView.swift */,
-				9DE812182A654ED60065D224 /* Assets.xcassets */,
-				9DE8121A2A654ED60065D224 /* Preview Content */,
+				9D17F2B42A66691400454512 /* Helper */,
+				9D17F2A22A6668E300454512 /* AVFoundationPlayerBasicSetupApp.swift */,
+				9D17F2A42A6668E300454512 /* ContentView.swift */,
+				9D17F2A62A6668E400454512 /* Assets.xcassets */,
+				9D17F2A82A6668E400454512 /* Preview Content */,
 			);
-			path = BasicAVFoundationPlayerSetup;
+			path = AVFoundationPlayerBasicSetup;
 			sourceTree = "<group>";
 		};
-		9DE8121A2A654ED60065D224 /* Preview Content */ = {
+		9D17F2A82A6668E400454512 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9DE8121B2A654ED60065D224 /* Preview Assets.xcassets */,
+				9D17F2A92A6668E400454512 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9DE812222A6550140065D224 /* Helper */ = {
+		9D17F2B42A66691400454512 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				9DE812232A6550240065D224 /* PlayerUIView.swift */,
-				9DE812252A6550D30065D224 /* PlayerView.swift */,
-				9DE812272A65517B0065D224 /* PlayerViewWrapper.swift */,
+				9D17F2B52A66691400454512 /* PlayerUIView.swift */,
+				9D17F2B62A66691400454512 /* PlayerViewWrapper.swift */,
+				9D17F2B72A66691400454512 /* PlayerView.swift */,
 			);
-			name = Helper;
-			path = ../../AVFoundationPlayerBasicSetup/AVFoundationPlayerBasicSetup/Helper;
+			path = Helper;
 			sourceTree = "<group>";
 		};
-		F91E05C55B8C7526B58C47B0 /* Pods */ = {
+		FC95FEA17C3B2EED6249CE18 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EEA8583DECBE507D473DE210 /* Pods-BasicAVFoundationPlayerSetup.debug.xcconfig */,
-				92873BB7B07B774FEADAB200 /* Pods-BasicAVFoundationPlayerSetup.release.xcconfig */,
+				202C52BD61A391DE0D8B06A8 /* Pods-AVFoundationPlayerBasicSetup.debug.xcconfig */,
+				37D975F569E1D2D76CF59DEF /* Pods-AVFoundationPlayerBasicSetup.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -113,41 +112,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DE812102A654ED40065D224 /* BasicAVFoundationPlayerSetup */ = {
+		9D17F29E2A6668E300454512 /* AVFoundationPlayerBasicSetup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DE8121F2A654ED60065D224 /* Build configuration list for PBXNativeTarget "BasicAVFoundationPlayerSetup" */;
+			buildConfigurationList = 9D17F2AD2A6668E400454512 /* Build configuration list for PBXNativeTarget "AVFoundationPlayerBasicSetup" */;
 			buildPhases = (
-				3422DF027A59A909C5CDFE61 /* [CP] Check Pods Manifest.lock */,
-				9DE8120D2A654ED40065D224 /* Sources */,
-				9DE8120E2A654ED40065D224 /* Frameworks */,
-				9DE8120F2A654ED40065D224 /* Resources */,
-				3BDB01AFEB1742EC5DA95FAC /* [CP] Embed Pods Frameworks */,
+				B2E946A7DBDD160A8CC232FE /* [CP] Check Pods Manifest.lock */,
+				9D17F29B2A6668E300454512 /* Sources */,
+				9D17F29C2A6668E300454512 /* Frameworks */,
+				9D17F29D2A6668E300454512 /* Resources */,
+				24CD7F92DA4917D87DA7302C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BasicAVFoundationPlayerSetup;
-			productName = BasicAVFoundationPlayerSetup;
-			productReference = 9DE812112A654ED40065D224 /* BasicAVFoundationPlayerSetup.app */;
+			name = AVFoundationPlayerBasicSetup;
+			productName = AVFoundationPlayerBasicSetup;
+			productReference = 9D17F29F2A6668E300454512 /* AVFoundationPlayerBasicSetup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9DE812092A654ED40065D224 /* Project object */ = {
+		9D17F2972A6668E300454512 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					9DE812102A654ED40065D224 = {
+					9D17F29E2A6668E300454512 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 9DE8120C2A654ED40065D224 /* Build configuration list for PBXProject "BasicAVFoundationPlayerSetup" */;
+			buildConfigurationList = 9D17F29A2A6668E300454512 /* Build configuration list for PBXProject "AVFoundationPlayerBasicSetup" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,30 +154,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 9DE812082A654ED40065D224;
-			productRefGroup = 9DE812122A654ED40065D224 /* Products */;
+			mainGroup = 9D17F2962A6668E300454512;
+			productRefGroup = 9D17F2A02A6668E300454512 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DE812102A654ED40065D224 /* BasicAVFoundationPlayerSetup */,
+				9D17F29E2A6668E300454512 /* AVFoundationPlayerBasicSetup */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9DE8120F2A654ED40065D224 /* Resources */ = {
+		9D17F29D2A6668E300454512 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE8121C2A654ED60065D224 /* Preview Assets.xcassets in Resources */,
-				9DE812192A654ED60065D224 /* Assets.xcassets in Resources */,
+				9D17F2AA2A6668E400454512 /* Preview Assets.xcassets in Resources */,
+				9D17F2A72A6668E400454512 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3422DF027A59A909C5CDFE61 /* [CP] Check Pods Manifest.lock */ = {
+		24CD7F92DA4917D87DA7302C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFoundationPlayerBasicSetup/Pods-AVFoundationPlayerBasicSetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFoundationPlayerBasicSetup/Pods-AVFoundationPlayerBasicSetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AVFoundationPlayerBasicSetup/Pods-AVFoundationPlayerBasicSetup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E946A7DBDD160A8CC232FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,49 +209,32 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BasicAVFoundationPlayerSetup-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AVFoundationPlayerBasicSetup-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3BDB01AFEB1742EC5DA95FAC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicAVFoundationPlayerSetup/Pods-BasicAVFoundationPlayerSetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicAVFoundationPlayerSetup/Pods-BasicAVFoundationPlayerSetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicAVFoundationPlayerSetup/Pods-BasicAVFoundationPlayerSetup-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9DE8120D2A654ED40065D224 /* Sources */ = {
+		9D17F29B2A6668E300454512 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE812172A654ED40065D224 /* ContentView.swift in Sources */,
-				9DE812152A654ED40065D224 /* BasicAVFoundationPlayerSetupApp.swift in Sources */,
-				9DE812242A6550240065D224 /* PlayerUIView.swift in Sources */,
-				9DE812262A6550D30065D224 /* PlayerView.swift in Sources */,
-				9DE812282A65517B0065D224 /* PlayerViewWrapper.swift in Sources */,
+				9D17F2A52A6668E300454512 /* ContentView.swift in Sources */,
+				9D17F2A32A6668E300454512 /* AVFoundationPlayerBasicSetupApp.swift in Sources */,
+				9D17F2B82A66691400454512 /* PlayerUIView.swift in Sources */,
+				9D17F2BA2A66691400454512 /* PlayerView.swift in Sources */,
+				9D17F2B92A66691400454512 /* PlayerViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9DE8121D2A654ED60065D224 /* Debug */ = {
+		9D17F2AB2A6668E400454512 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		9DE8121E2A654ED60065D224 /* Release */ = {
+		9D17F2AC2A6668E400454512 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,15 +348,15 @@
 			};
 			name = Release;
 		};
-		9DE812202A654ED60065D224 /* Debug */ = {
+		9D17F2AE2A6668E400454512 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEA8583DECBE507D473DE210 /* Pods-BasicAVFoundationPlayerSetup.debug.xcconfig */;
+			baseConfigurationReference = 202C52BD61A391DE0D8B06A8 /* Pods-AVFoundationPlayerBasicSetup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BasicAVFoundationPlayerSetup/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AVFoundationPlayerBasicSetup/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -370,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.basic.avplayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.avfoundation.basic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -378,15 +377,15 @@
 			};
 			name = Debug;
 		};
-		9DE812212A654ED60065D224 /* Release */ = {
+		9D17F2AF2A6668E400454512 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92873BB7B07B774FEADAB200 /* Pods-BasicAVFoundationPlayerSetup.release.xcconfig */;
+			baseConfigurationReference = 37D975F569E1D2D76CF59DEF /* Pods-AVFoundationPlayerBasicSetup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BasicAVFoundationPlayerSetup/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AVFoundationPlayerBasicSetup/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -399,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.basic.avplayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.avfoundation.basic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -410,25 +409,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DE8120C2A654ED40065D224 /* Build configuration list for PBXProject "BasicAVFoundationPlayerSetup" */ = {
+		9D17F29A2A6668E300454512 /* Build configuration list for PBXProject "AVFoundationPlayerBasicSetup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DE8121D2A654ED60065D224 /* Debug */,
-				9DE8121E2A654ED60065D224 /* Release */,
+				9D17F2AB2A6668E400454512 /* Debug */,
+				9D17F2AC2A6668E400454512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DE8121F2A654ED60065D224 /* Build configuration list for PBXNativeTarget "BasicAVFoundationPlayerSetup" */ = {
+		9D17F2AD2A6668E400454512 /* Build configuration list for PBXNativeTarget "AVFoundationPlayerBasicSetup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DE812202A654ED60065D224 /* Debug */,
-				9DE812212A654ED60065D224 /* Release */,
+				9D17F2AE2A6668E400454512 /* Debug */,
+				9D17F2AF2A6668E400454512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9DE812092A654ED40065D224 /* Project object */;
+	rootObject = 9D17F2972A6668E300454512 /* Project object */;
 }

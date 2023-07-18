@@ -28,8 +28,8 @@ target 'BitmovinPlayerBasicSetup' do
   analytics_collector
 end
 
-target 'BasicAVFoundationPlayerSetup' do
-  project 'BasicAVFoundationPlayerSetup/BasicAVFoundationPlayerSetup.xcodeproj'
+target 'AVFoundationPlayerBasicSetup' do
+  project 'AVFoundationPlayerBasicSetup/AVFoundationPlayerBasicSetup.xcodeproj'
   analytics_collector
 end
 
