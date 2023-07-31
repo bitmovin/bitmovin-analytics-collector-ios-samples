@@ -6,7 +6,7 @@ import AmazonIVSCollector
 struct ContentView: View {
     private let player: IVSPlayer
     private let wrapper: PlayerViewWrapper
-    private let collector: AmazonIVSPlayerCollectorAPI
+    private let collector: AmazonIVSPlayerCollectorApi
 
     init() {
         // Create player

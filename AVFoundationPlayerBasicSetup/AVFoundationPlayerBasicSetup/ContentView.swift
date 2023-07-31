@@ -5,7 +5,7 @@ import CoreCollector
 
 struct ContentView: View {
     private let player: AVPlayer
-    private let collector: AVPlayerCollectorAPI
+    private let collector: AVPlayerCollectorApi
     private let wrapper: PlayerViewWrapper
     private let streamUrl = URL(string: "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8")
 
