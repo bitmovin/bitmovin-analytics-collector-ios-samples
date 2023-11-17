@@ -1,11 +1,10 @@
 import SwiftUI
-import BitmovinPlayer
 import BitmovinCollector
+import BitmovinPlayer
 import CoreCollector
 
 struct ContentView: View {
     private let player: Player
-    private let collector: BitmovinPlayerCollectorApi
     private let playerViewConfig: PlayerViewConfig
     private var sourceConfig: SourceConfig {
         guard let streamUrl = URL(string: "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8") else {
@@ -19,17 +18,35 @@ struct ContentView: View {
         // Create player configuration
         let playerConfig = PlayerConfig()
 
-        // Create player based on player config
-        player = PlayerFactory.create(playerConfig: playerConfig)
+        // Set your player license key on the player configuration
+        playerConfig.key = "7ef40b69-f1c0-4c2c-8212-32b973204800"
+
+        // Create a CustomData object with acts as fallback if not explicitly specified for a Source
+        let customData = CustomData(
+            customData1: "analytics",
+            customData2: "sample"
+        )
+
+        // Configure DefaultMetadata used for the Collector instance
+        let defaultMetadata = DefaultMetadata(
+            customUserId: "public-player-analytics-sample",
+            customData: customData
+        )
+
+        // Create analytics configuration with your analytics license key
+        let analyticsConfig = AnalyticsConfig(
+            licenseKey: "53b1ad1f-1ffa-4e53-a8fb-02c16439d2f8"
+        )
+
+        // Create player based on player and analytics configurations with DefaultMetadata set
+        player = PlayerFactory.create(
+            playerConfig: playerConfig,
+            analyticsConfig: analyticsConfig,
+            defaultMetadata: defaultMetadata
+        )
 
         // Create player view configuration
         playerViewConfig = PlayerViewConfig()
-
-        // Create analytics config
-        let analyticsConfig = AnalyticsConfig(licenseKey: "<Your License Key>")
-
-        // Create analytics collector
-        collector = BitmovinPlayerCollectorFactory.create(config: analyticsConfig)
     }
 
     var body: some View {
@@ -45,11 +62,25 @@ struct ContentView: View {
         }
         .padding()
         .onAppear {
-            // attach collector before source load
-            collector.attach(to: player)
+            // Create a Source specific CustomData object will only be used for one source
+            let customData = CustomData(
+                customData3: "Free-running action"
+            )
 
-            // load source
-            player.load(sourceConfig: sourceConfig)
+            // Create a Source specific SourceMetadata object with a specific `CustomData` object
+            let sourceMetadata = SourceMetadata(
+                title: "Art Of Motion",
+                path: "root",
+                customData: customData
+            )
+
+            // Create a Source with specific Analytics metadata
+            let source = SourceFactory.create(
+                from: sourceConfig,
+                sourceMetadata: sourceMetadata
+            )
+
+            player.load(source: source)
         }
     }
 }

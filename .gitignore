@@ -70,3 +70,5 @@ fastlane/.env
 fastlane/build-*
 .DS_Store
 .idea/
+
+.DS_Store
