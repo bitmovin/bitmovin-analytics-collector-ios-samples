@@ -25,7 +25,9 @@ This repository contains sample apps which are using the Bitmovin Player iOS SDK
 +  **BitmovinPlayerPlaylist** Shows how to setup metadata information for multiple sources 
 
 ## Sample App Setup Instructions
-Please execute `pod install --repo-update` to properly initialize the workspace. 
+Start with installing dependencies with `bundle install`
+
+Please execute `bundle exec pod install --repo-update` to properly initialize the workspace. 
 
 In addition to that you have to log in to [https://bitmovin.com/dashboard](https://bitmovin.com/dashboard), where you have to add the following bundle identifier of the sample application as an allowed domain under `Analytics -> Licenses`:
 
