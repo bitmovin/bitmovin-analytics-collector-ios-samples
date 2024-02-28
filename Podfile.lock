@@ -1,26 +1,26 @@
 PODS:
-  - AmazonIVSPlayer (1.23.0)
-  - BitmovinAnalyticsCollector/AmazonIVSPlayer (3.3.0):
-    - AmazonIVSPlayer (= 1.23.0)
+  - AmazonIVSPlayer (1.24.0)
+  - BitmovinAnalyticsCollector/AmazonIVSPlayer (3.6.0):
+    - AmazonIVSPlayer (= 1.24.0)
     - BitmovinAnalyticsCollector/Core
-  - BitmovinAnalyticsCollector/AVPlayer (3.3.0):
+  - BitmovinAnalyticsCollector/AVPlayer (3.6.0):
     - BitmovinAnalyticsCollector/Core
-  - BitmovinAnalyticsCollector/BitmovinPlayer (3.3.0):
+  - BitmovinAnalyticsCollector/BitmovinPlayer (3.6.0):
     - BitmovinAnalyticsCollector/Core
     - BitmovinPlayerCore (~> 3.48)
-  - BitmovinAnalyticsCollector/Core (3.3.0)
-  - BitmovinPlayer (3.48.0):
+  - BitmovinAnalyticsCollector/Core (3.6.0)
+  - BitmovinPlayer (3.56.2):
     - BitmovinAnalyticsCollector/BitmovinPlayer (~> 3.0)
-    - BitmovinPlayerCore (= 3.48.0)
-  - BitmovinPlayerCore (3.48.0)
+    - BitmovinPlayerCore (= 3.56.2)
+  - BitmovinPlayerCore (3.56.2)
 
 DEPENDENCIES:
-  - AmazonIVSPlayer (= 1.23.0)
-  - BitmovinAnalyticsCollector/AmazonIVSPlayer (= 3.3.0)
-  - BitmovinAnalyticsCollector/AVPlayer (= 3.3.0)
-  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.3.0)
-  - BitmovinAnalyticsCollector/Core (= 3.3.0)
-  - BitmovinPlayer (= 3.48.0)
+  - AmazonIVSPlayer (= 1.24.0)
+  - BitmovinAnalyticsCollector/AmazonIVSPlayer (= 3.6.0)
+  - BitmovinAnalyticsCollector/AVPlayer (= 3.6.0)
+  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.6.0)
+  - BitmovinAnalyticsCollector/Core (= 3.6.0)
+  - BitmovinPlayer (= 3.56.2)
 
 SPEC REPOS:
   https://github.com/bitmovin/cocoapod-specs.git:
@@ -31,11 +31,11 @@ SPEC REPOS:
     - AmazonIVSPlayer
 
 SPEC CHECKSUMS:
-  AmazonIVSPlayer: 056aa543826328b578f51d5f3a1ac47b227d813d
-  BitmovinAnalyticsCollector: b3bf447e609a87d41e51a7c029cb16a3bcb3404c
-  BitmovinPlayer: 4403bd2187b2e31106b25971fa98c9c4929d46d4
-  BitmovinPlayerCore: 054684e1a1cc262721c70c5cf3884f1e32b65e0c
+  AmazonIVSPlayer: 83d7d16a27eb5f804aa88e6a8fb0a77e0e08ef9d
+  BitmovinAnalyticsCollector: 70f10cfc67f7e4bf38daddf4362f54bd6125683d
+  BitmovinPlayer: d90e291619495dafd0708d7e228bac687a8f7add
+  BitmovinPlayerCore: a1c24e70af1417ccc20c780d938ad116305d685e
 
-PODFILE CHECKSUM: a139cf6f715e4d6cb2fbd61963e4b3c924d142d5
+PODFILE CHECKSUM: 7bc3d363ae3d841873a329005b89965cb1cb2372
 
 COCOAPODS: 1.13.0
