@@ -8,10 +8,10 @@ workspace 'BitmoviniOSCollectorSamples'
 
 
 def analytics_collector
-  pod 'BitmovinAnalyticsCollector/Core', '3.6.0-rc.2'
-  pod 'BitmovinAnalyticsCollector/BitmovinPlayer', '3.6.0-rc.2'
-  pod 'BitmovinAnalyticsCollector/AVPlayer', '3.6.0-rc.2'
-  pod 'BitmovinAnalyticsCollector/AmazonIVSPlayer', '3.6.0-rc.2'
+  pod 'BitmovinAnalyticsCollector/Core', '3.6.0'
+  pod 'BitmovinAnalyticsCollector/BitmovinPlayer', '3.6.0'
+  pod 'BitmovinAnalyticsCollector/AVPlayer', '3.6.0'
+  pod 'BitmovinAnalyticsCollector/AmazonIVSPlayer', '3.6.0'
 end
 
 def bitmovin_player
