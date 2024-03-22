@@ -1,14 +1,14 @@
 PODS:
   - AmazonIVSPlayer (1.24.0)
-  - BitmovinAnalyticsCollector/AmazonIVSPlayer (3.6.0):
+  - BitmovinAnalyticsCollector/AmazonIVSPlayer (3.6.1):
     - AmazonIVSPlayer (= 1.24.0)
     - BitmovinAnalyticsCollector/Core
-  - BitmovinAnalyticsCollector/AVPlayer (3.6.0):
+  - BitmovinAnalyticsCollector/AVPlayer (3.6.1):
     - BitmovinAnalyticsCollector/Core
-  - BitmovinAnalyticsCollector/BitmovinPlayer (3.6.0):
+  - BitmovinAnalyticsCollector/BitmovinPlayer (3.6.1):
     - BitmovinAnalyticsCollector/Core
     - BitmovinPlayerCore (~> 3.48)
-  - BitmovinAnalyticsCollector/Core (3.6.0)
+  - BitmovinAnalyticsCollector/Core (3.6.1)
   - BitmovinPlayer (3.56.2):
     - BitmovinAnalyticsCollector/BitmovinPlayer (~> 3.0)
     - BitmovinPlayerCore (= 3.56.2)
@@ -16,10 +16,10 @@ PODS:
 
 DEPENDENCIES:
   - AmazonIVSPlayer (= 1.24.0)
-  - BitmovinAnalyticsCollector/AmazonIVSPlayer (= 3.6.0)
-  - BitmovinAnalyticsCollector/AVPlayer (= 3.6.0)
-  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.6.0)
-  - BitmovinAnalyticsCollector/Core (= 3.6.0)
+  - BitmovinAnalyticsCollector/AmazonIVSPlayer (= 3.6.1)
+  - BitmovinAnalyticsCollector/AVPlayer (= 3.6.1)
+  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.6.1)
+  - BitmovinAnalyticsCollector/Core (= 3.6.1)
   - BitmovinPlayer (= 3.56.2)
 
 SPEC REPOS:
@@ -32,10 +32,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AmazonIVSPlayer: 83d7d16a27eb5f804aa88e6a8fb0a77e0e08ef9d
-  BitmovinAnalyticsCollector: 70f10cfc67f7e4bf38daddf4362f54bd6125683d
+  BitmovinAnalyticsCollector: cc31a7ffd96850f5bd4f41b39ea22b467734e9c9
   BitmovinPlayer: d90e291619495dafd0708d7e228bac687a8f7add
   BitmovinPlayerCore: a1c24e70af1417ccc20c780d938ad116305d685e
 
-PODFILE CHECKSUM: 7bc3d363ae3d841873a329005b89965cb1cb2372
+PODFILE CHECKSUM: 64a7959fe06ea560e35d42c43a740bb18ca32c41
 
 COCOAPODS: 1.13.0
