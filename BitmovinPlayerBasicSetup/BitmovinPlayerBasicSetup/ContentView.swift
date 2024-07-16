@@ -39,10 +39,13 @@ struct ContentView: View {
         )
 
         // Create player based on player and analytics configurations with DefaultMetadata set
-        player = PlayerFactory.create(
+        player = PlayerFactory.createPlayer(
             playerConfig: playerConfig,
-            analyticsConfig: analyticsConfig,
-            defaultMetadata: defaultMetadata
+            analytics:
+                .enabled(
+                    analyticsConfig: analyticsConfig,
+                    defaultMetadata: defaultMetadata
+                )
         )
 
         // Create player view configuration
@@ -75,7 +78,7 @@ struct ContentView: View {
             )
 
             // Create a Source with specific Analytics metadata
-            let source = SourceFactory.create(
+            let source = SourceFactory.createSource(
                 from: sourceConfig,
                 sourceMetadata: sourceMetadata
             )
