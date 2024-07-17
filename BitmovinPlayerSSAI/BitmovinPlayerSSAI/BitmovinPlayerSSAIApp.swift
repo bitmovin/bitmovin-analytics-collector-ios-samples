@@ -1,10 +1,3 @@
-//
-//  BitmovinPlayerSSAIApp.swift
-//  BitmovinPlayerSSAI
-//
-//  Created by Thomas Sablattnig on 16.07.24.
-//
-
 import SwiftUI
 
 @main
