@@ -3,6 +3,13 @@ import BitmovinCollector
 import BitmovinPlayer
 import CoreCollector
 
+// You can find your player license key on the player license dashboard:
+// https://bitmovin.com/dashboard/player/licenses
+private let playerLicenseKey = "<PLAYER_LICENSE_KEY>"
+// You can find your analytics license key on the analytics license dashboard:
+// https://bitmovin.com/dashboard/analytics/licenses
+private let analyticsLicenseKey = "<ANALYTICS_LICENSE_KEY>"
+
 struct ContentView: View {
     private let player: Player
     private let playerViewConfig: PlayerViewConfig
@@ -21,7 +28,7 @@ struct ContentView: View {
         let playerConfig = PlayerConfig()
 
         // Set your player license key on the player configuration
-        playerConfig.key = "7ef40b69-f1c0-4c2c-8212-32b973204800"
+        playerConfig.key = playerLicenseKey
 
         // Create a CustomData object with acts as fallback if not explicitly specified for a Source
         let customData = CustomData(
@@ -37,7 +44,7 @@ struct ContentView: View {
 
         // Create analytics configuration with your analytics license key
         let analyticsConfig = AnalyticsConfig(
-            licenseKey: "53b1ad1f-1ffa-4e53-a8fb-02c16439d2f8"
+            licenseKey: analyticsLicenseKey
         )
 
         // Create player based on player and analytics configurations with DefaultMetadata set
