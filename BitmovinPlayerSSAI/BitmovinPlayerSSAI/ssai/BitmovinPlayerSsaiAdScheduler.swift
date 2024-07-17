@@ -17,10 +17,8 @@ class BitmovinPlayerSsaiAdScheduler: NSObject {
         self.collector = collector
     }
 
-    /**
-     Schedules the ads.
-     Listens to the player events to know when ads should be tracked
-     */
+    /// Schedules the ads.
+    /// Listens to the player events to know when ads should be tracked
     func scheduleAds(ads: [SsaiAdInfo]) {
         player.add(listener: self)
         self.adsScheduled = []
@@ -33,19 +31,17 @@ class BitmovinPlayerSsaiAdScheduler: NSObject {
         nextAd = getNextAd(currentTime: 0)
     }
 
-    /**
-     Stop the scheduling of ads
-     */
+
+    /// Stop the scheduling of ads
     func detach() {
         player.remove(listener: self)
         collector.ssai.adBreakEnd()
         activeAd = nil
     }
 
-    /**
-     Start to track the given ad by passing it to the analytics collector api
-     Automatically detects when an adbreak starts
-     */
+
+    /// Start to track the given ad by passing it to the analytics collector api
+    /// Automatically detects when an adbreak starts
     func startTrackingAd(ad: SsaiAdInfo) {
         if activeAd == nil {
             collector.ssai.adBreakStart(adBreakMetadata: ad.adBreakMetadata)
@@ -58,9 +54,8 @@ class BitmovinPlayerSsaiAdScheduler: NSObject {
         collector.ssai.adStart(adMetadata: ad.adMetadata)
     }
 
-    /**
-     stop the tracking of the current active ad
-     */
+    
+    /// Stop the tracking of the current active ad
     func stopTrackingAd() {
         collector.ssai.adBreakEnd()
 
@@ -82,7 +77,7 @@ class BitmovinPlayerSsaiAdScheduler: NSObject {
 
 extension BitmovinPlayerSsaiAdScheduler: PlayerListener {
     func onTimeChanged(_ event: TimeChangedEvent, player: any Player) {
-        print("onTimeChangeEvent currnetTime: \(event.currentTime)")
+        print("onTimeChangeEvent currentTime: \(event.currentTime)")
         guard let currentTime = event.currentTime.milliseconds else {
             return
         }
@@ -97,10 +92,8 @@ extension BitmovinPlayerSsaiAdScheduler: PlayerListener {
         }
     }
 
-    /**
-     Checks if there is an ad scheduled for which tracking should be started
-     It will start ad tracking 200 milliseconds prior to the ads start
-     */
+    /// Checks if there is an ad scheduled for which tracking should be started
+    /// It will start ad tracking 200 milliseconds prior to the ads start
     private func checkForAdStart(currentTime: Int) {
         // only continue here if there is a next ad
         guard let nextAd else {
@@ -118,10 +111,8 @@ extension BitmovinPlayerSsaiAdScheduler: PlayerListener {
         }
     }
 
-    /**
-     Checks if the ad is about to stop
-     It will stop ad tracking 200 milliseconds prior to the end of the ad
-     */
+    /// Checks if the ad is about to stop
+    /// It will stop ad tracking 200 milliseconds prior to the end of the ad
     private func checkForAdStop(ad: SsaiAdInfo, currentTime: Int) {
         let stopAt = ad.scheduledAt + ad.durationSeconds
         let timeUntilAd = (stopAt * 1000) - currentTime
@@ -133,9 +124,8 @@ extension BitmovinPlayerSsaiAdScheduler: PlayerListener {
         }
     }
 
-    /**
-     returns the next scheduled ad relative to currentTime
-     */
+
+    /// Returns the next scheduled ad relative to currentTime
     private func getNextAd(currentTime: Int) -> SsaiAdInfo? {
         let potentialNext = self.adsScheduled.first { ad in
             ad.scheduledAt * 1000 >= currentTime && ad != activeAd
