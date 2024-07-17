@@ -63,16 +63,11 @@ struct ContentView: View {
     }
 
     var body: some View {
-        VStack {
-            ZStack {
-                Color.black
-
-                VideoPlayerView(
-                    player: player,
-                    playerViewConfig: playerViewConfig
-                )
-            }
-        }
+        VideoPlayerView(
+                player: player,
+                playerViewConfig: playerViewConfig
+            )
+        .background(.black)
         .padding()
         .onAppear {
             // Create a Source specific CustomData object will only be used for one source
