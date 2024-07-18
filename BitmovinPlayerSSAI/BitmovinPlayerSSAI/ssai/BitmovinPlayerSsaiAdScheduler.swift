@@ -4,7 +4,9 @@ import CoreCollector
 
 class BitmovinPlayerSsaiAdScheduler: NSObject {
 
-    static let beforeAdTimeSpan = 200
+    /// To accurately track potential errors during the stream-to-ad and ad-to-stream transitions, ad tracking should start shortly before the ad begins and stop shortly after the ad ends. 
+    /// This approach ensures that error data is connected to the relevant ad data, preventing any loss of correlation between errors and ads.
+    static let adTrackingWindowMs = 200
 
     private let player: Player
     private let collector: PlayerAnalyticsApi
@@ -17,18 +19,18 @@ class BitmovinPlayerSsaiAdScheduler: NSObject {
         self.collector = collector
     }
 
-    /// Schedules the ads.
-    /// Listens to the player events to know when ads should be tracked
+    /// Sorts and schedules the ads.
+    /// Adds listener for player events (e.g onTimeChanged) to know when ads should be tracked
     func scheduleAds(ads: [SsaiAdInfo]) {
         player.add(listener: self)
         self.adsScheduled = []
         self.adsScheduled.append(contentsOf: ads)
         self.adsScheduled.sort { ad1, ad2 in
-            return ad1.scheduledAt < ad2.scheduledAt
+            return ad1.scheduledAtSeconds < ad2.scheduledAtSeconds
         }
 
         // here we assume the player starts the stream at position 0
-        nextAd = getNextAd(currentTime: 0)
+        nextAd = getNextAd(currentTimeMs: 0)
     }
 
 
@@ -55,7 +57,7 @@ class BitmovinPlayerSsaiAdScheduler: NSObject {
     }
 
     
-    /// Stop the tracking of the current active ad
+    /// Stop the tracking of the current active ad and closes the adBreak
     func stopTrackingAd() {
         collector.ssai.adBreakEnd()
 
@@ -74,17 +76,16 @@ class BitmovinPlayerSsaiAdScheduler: NSObject {
     }
 }
 
-
 extension BitmovinPlayerSsaiAdScheduler: PlayerListener {
     func onTimeChanged(_ event: TimeChangedEvent, player: any Player) {
         print("onTimeChangeEvent currentTime: \(event.currentTime)")
-        guard let currentTime = event.currentTime.milliseconds else {
+        guard let currentTimeMs = event.currentTime.milliseconds else {
             return
         }
         if let ad = activeAd, ad.isLastInAdBreak == true {
-            checkForAdStop(ad: ad, currentTime: currentTime)
+            checkForAdStop(ad: ad, currentTimeMs: currentTimeMs)
         }
-        checkForAdStart(currentTime: currentTime)
+        checkForAdStart(currentTimeMs: currentTimeMs)
 
         if adsScheduled.isEmpty {
             print("no ads scheduled: detaching scheduler")
@@ -93,8 +94,8 @@ extension BitmovinPlayerSsaiAdScheduler: PlayerListener {
     }
 
     /// Checks if there is an ad scheduled for which tracking should be started
-    /// It will start ad tracking 200 milliseconds prior to the ads start
-    private func checkForAdStart(currentTime: Int) {
+    /// It will start ad tracking adTrackingWindowMs prior to the ads start
+    private func checkForAdStart(currentTimeMs: Int) {
         // only continue here if there is a next ad
         guard let nextAd else {
             return
@@ -102,33 +103,33 @@ extension BitmovinPlayerSsaiAdScheduler: PlayerListener {
 
         // we want to start tracking a few milliseconds prior to the actual ad start
         // to catch potential error during the transition
-        let timeUntilAd = (nextAd.scheduledAt * 1000) - currentTime
-        print("time until ad start: \(timeUntilAd)")
-        if timeUntilAd < BitmovinPlayerSsaiAdScheduler.beforeAdTimeSpan {
-            print("ad start at: \(currentTime)")
+        let timeUntilAdMs = (nextAd.scheduledAtSeconds * 1000) - currentTimeMs
+        print("time until ad start: \(timeUntilAdMs)")
+        if timeUntilAdMs < BitmovinPlayerSsaiAdScheduler.adTrackingWindowMs {
+            print("ad start at: \(currentTimeMs)")
             self.startTrackingAd(ad: nextAd)
-            self.nextAd = getNextAd(currentTime: currentTime)
+            self.nextAd = getNextAd(currentTimeMs: currentTimeMs)
         }
     }
 
-    /// Checks if the ad is about to stop
-    /// It will stop ad tracking 200 milliseconds prior to the end of the ad
-    private func checkForAdStop(ad: SsaiAdInfo, currentTime: Int) {
-        let stopAt = ad.scheduledAt + ad.durationSeconds
-        let timeUntilAd = (stopAt * 1000) - currentTime
-        print("time until ad stop: \(timeUntilAd)")
-        if timeUntilAd < BitmovinPlayerSsaiAdScheduler.beforeAdTimeSpan {
-            print("ad stop at: \(currentTime)")
+    /// Checks if the ad already stopped
+    /// It will stop ad tracking adTrackingWindowMs after the end of the ad
+    private func checkForAdStop(ad: SsaiAdInfo, currentTimeMs: Int) {
+        let stopAtSeconds = ad.scheduledAtSeconds + ad.durationSeconds
+        let timeAfterAdStop = currentTimeMs - (stopAtSeconds * 1000)
+        print("time after ad stop: \(timeAfterAdStop)")
+        if timeAfterAdStop > BitmovinPlayerSsaiAdScheduler.adTrackingWindowMs {
+            print("ad stop at: \(currentTimeMs)")
             self.stopTrackingAd()
-            self.nextAd = getNextAd(currentTime: currentTime)
+            self.nextAd = getNextAd(currentTimeMs: currentTimeMs)
         }
     }
 
 
     /// Returns the next scheduled ad relative to currentTime
-    private func getNextAd(currentTime: Int) -> SsaiAdInfo? {
+    private func getNextAd(currentTimeMs: Int) -> SsaiAdInfo? {
         let potentialNext = self.adsScheduled.first { ad in
-            ad.scheduledAt * 1000 >= currentTime && ad != activeAd
+            ad.scheduledAtSeconds * 1000 >= currentTimeMs && ad != activeAd
         }
 
         return potentialNext

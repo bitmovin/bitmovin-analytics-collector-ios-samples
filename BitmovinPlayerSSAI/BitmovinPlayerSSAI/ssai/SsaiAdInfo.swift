@@ -5,20 +5,20 @@ class SsaiAdInfo: NSObject {
     init(
         adMetadata: SsaiAdMetadata,
         adBreakMetadata: SsaiAdBreakMetadata,
-        scheduledAt: Int,
+        scheduledAtSeconds: Int,
         durationSeconds: Int,
         isLastInAdBreak: Bool
     ) {
         self.adMetadata = adMetadata
         self.adBreakMetadata = adBreakMetadata
-        self.scheduledAt = scheduledAt
+        self.scheduledAtSeconds = scheduledAtSeconds
         self.durationSeconds = durationSeconds
         self.isLastInAdBreak = isLastInAdBreak
     }
     
     let adMetadata: SsaiAdMetadata
     let adBreakMetadata: SsaiAdBreakMetadata
-    let scheduledAt: Int
+    let scheduledAtSeconds: Int
     let durationSeconds: Int
     let isLastInAdBreak: Bool
 }

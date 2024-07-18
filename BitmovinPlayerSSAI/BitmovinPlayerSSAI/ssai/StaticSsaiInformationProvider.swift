@@ -7,21 +7,21 @@ let staticAds = [
     SsaiAdInfo(
         adMetadata: SsaiAdMetadata(adId: "ad-1", adSystem: "static-ad-setup", customData: CustomData(customData1: "ad-1-customData")),
         adBreakMetadata: preroll,
-        scheduledAt: 0,
+        scheduledAtSeconds: 0,
         durationSeconds: 10,
         isLastInAdBreak: false
     ),
     SsaiAdInfo(
         adMetadata: SsaiAdMetadata(adId: "ad-2", adSystem: "static-ad-setup", customData: CustomData(customData1: "ad-2-customData")),
         adBreakMetadata: preroll,
-        scheduledAt: 10,
+        scheduledAtSeconds: 10,
         durationSeconds: 10,
         isLastInAdBreak: true
     ),
     SsaiAdInfo(
         adMetadata: SsaiAdMetadata(adId: "ad-3", adSystem: "static-ad-setup", customData: CustomData(customData1: "ad-3-customData")),
         adBreakMetadata: midroll,
-        scheduledAt: 30,
+        scheduledAtSeconds: 30,
         durationSeconds: 10,
         isLastInAdBreak: true
     )
