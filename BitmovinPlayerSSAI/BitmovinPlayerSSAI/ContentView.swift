@@ -26,6 +26,7 @@ struct ContentView: View {
     init() {
         // Create player configuration
         let playerConfig = PlayerConfig()
+        playerConfig.tweaksConfig.timeChangedInterval = 0.1
 
         // Set your player license key on the player configuration
         playerConfig.key = playerLicenseKey
