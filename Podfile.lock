@@ -1,26 +1,26 @@
 PODS:
   - AmazonIVSPlayer (1.24.0)
-  - BitmovinAnalyticsCollector/AmazonIVSPlayer (3.7.0):
+  - BitmovinAnalyticsCollector/AmazonIVSPlayer (3.8.0):
     - AmazonIVSPlayer (= 1.24.0)
     - BitmovinAnalyticsCollector/Core
-  - BitmovinAnalyticsCollector/AVPlayer (3.7.0):
+  - BitmovinAnalyticsCollector/AVPlayer (3.8.0):
     - BitmovinAnalyticsCollector/Core
-  - BitmovinAnalyticsCollector/BitmovinPlayer (3.7.0):
+  - BitmovinAnalyticsCollector/BitmovinPlayer (3.8.0):
     - BitmovinAnalyticsCollector/Core
     - BitmovinPlayerCore (~> 3.48)
-  - BitmovinAnalyticsCollector/Core (3.7.0)
-  - BitmovinPlayer (3.64.0):
+  - BitmovinAnalyticsCollector/Core (3.8.0)
+  - BitmovinPlayer (3.70.0):
     - BitmovinAnalyticsCollector/BitmovinPlayer (~> 3.0)
-    - BitmovinPlayerCore (= 3.64.0)
-  - BitmovinPlayerCore (3.64.0)
+    - BitmovinPlayerCore (= 3.70.0)
+  - BitmovinPlayerCore (3.70.0)
 
 DEPENDENCIES:
   - AmazonIVSPlayer (= 1.24.0)
-  - BitmovinAnalyticsCollector/AmazonIVSPlayer (= 3.7.0)
-  - BitmovinAnalyticsCollector/AVPlayer (= 3.7.0)
-  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.7.0)
-  - BitmovinAnalyticsCollector/Core (= 3.7.0)
-  - BitmovinPlayer (= 3.64.0)
+  - BitmovinAnalyticsCollector/AmazonIVSPlayer (= 3.8.0)
+  - BitmovinAnalyticsCollector/AVPlayer (= 3.8.0)
+  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.8.0)
+  - BitmovinAnalyticsCollector/Core (= 3.8.0)
+  - BitmovinPlayer (= 3.70.0)
 
 SPEC REPOS:
   https://github.com/bitmovin/cocoapod-specs.git:
@@ -32,10 +32,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AmazonIVSPlayer: 83d7d16a27eb5f804aa88e6a8fb0a77e0e08ef9d
-  BitmovinAnalyticsCollector: bbd82c0b8e11aefacd8e53b6e40c62f2cba6f3f5
-  BitmovinPlayer: f69350e5db2f57ad950108ec829b7c7a4b360d00
-  BitmovinPlayerCore: 1553570729eed0a64cdfbd06d16c39d69d7e701f
+  BitmovinAnalyticsCollector: 1390e34dd1af4a0b9fe09e290510de648eec4c09
+  BitmovinPlayer: 3ea160bed65b291fb7b9b1a25f383f4a333761b6
+  BitmovinPlayerCore: cd4d8d8f0385f926da68cf2e91da3b6429a60d3e
 
-PODFILE CHECKSUM: 1f969e9827265c60b7ec57ad7c0e7e797916c4d0
+PODFILE CHECKSUM: d0e886430d732912fa0a2001490e5f4221fd09cb
 
 COCOAPODS: 1.13.0
