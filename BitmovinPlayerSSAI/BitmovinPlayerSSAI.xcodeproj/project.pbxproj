@@ -393,7 +393,7 @@
 			repositoryURL = "https://github.com/bitmovin/bitmovin-analytics-collector-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.7.0;
+				minimumVersion = 3.18.1;
 			};
 		};
 		9DAF37D92C46A85B00C4CC2F /* XCRemoteSwiftPackageReference "player-ios" */ = {
@@ -401,7 +401,7 @@
 			repositoryURL = "https://github.com/bitmovin/player-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.66.1;
+				minimumVersion = 3.99.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
