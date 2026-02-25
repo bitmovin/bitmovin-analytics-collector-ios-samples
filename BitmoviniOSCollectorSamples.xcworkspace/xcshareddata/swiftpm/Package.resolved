@@ -1,13 +1,13 @@
 {
-  "originHash" : "eba5626c323e22f961f98ce60ae8127608f2a1976009d890e75fd2bc536796c8",
+  "originHash" : "3072df28fbf64166c19d7de4e5a7dd49eb7dfd14ea3a6872e1e41e7a751f1dea",
   "pins" : [
     {
       "identity" : "bitmovin-analytics-collector-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bitmovin/bitmovin-analytics-collector-ios",
       "state" : {
-        "revision" : "f8d075366295a48e614085795f6383aa322470d0",
-        "version" : "3.20.0"
+        "revision" : "39e27abf7d37afdcfe780733452144921df09438",
+        "version" : "3.18.1"
       }
     },
     {
