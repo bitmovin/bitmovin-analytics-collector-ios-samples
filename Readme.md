@@ -24,6 +24,7 @@ This repository contains sample apps which are using the Bitmovin Player iOS SDK
 +  **BitmovinPlayerBasicSetup** Shows how to set up the Analytics collector for the Bitmovin player *(uses SPM)*
 +  **AVFoundationPlayerBasicSetup** Shows how to set up the Analytics collector for the AVFoundation player *(uses CocoaPods)*
 +  **AmazonIVSPlayerBasicSetup** Shows how to set up the Analytics collector for the Amazon IVS player *(uses CocoaPods)*
++  **THEOplayerBasicSetup** Shows how to set up the Analytics collector for THEOplayer *(uses SPM)*
 
 ### Playlist
 +  **BitmovinPlayerPlaylist** Shows how to setup metadata information for multiple sources *(uses CocoaPods)*
@@ -36,7 +37,7 @@ This repository contains sample apps which are using the Bitmovin Player iOS SDK
 ### Dependency Management
 This repository uses **both CocoaPods and Swift Package Manager (SPM)** for different sample apps:
 - **CocoaPods**: AVFoundationPlayerBasicSetup, AmazonIVSPlayerBasicSetup, BitmovinPlayerPlaylist
-- **SPM**: BitmovinPlayerBasicSetup, BitmovinPlayerSSAI
+- **SPM**: BitmovinPlayerBasicSetup, BitmovinPlayerSSAI, THEOplayerBasicSetup
 
 ### Setup Steps
 1. Install Ruby dependencies:
@@ -64,6 +65,7 @@ You have to log in to [https://bitmovin.com/dashboard](https://bitmovin.com/dash
     com.bitmovin.analytics.samples.bitmovinplayer.playlist
     com.bitmovin.analytics.samples.avfoundation.basic
     com.bitmovin.analytics.samples.amazonivs.basic
+    com.bitmovin.analytics.THEOplayerBasicSetup
 
 ### Sample App Setup Instructions with Bitmovin player
 
