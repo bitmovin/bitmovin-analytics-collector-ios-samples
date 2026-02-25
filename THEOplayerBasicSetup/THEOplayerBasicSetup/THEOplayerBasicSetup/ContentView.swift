@@ -72,6 +72,7 @@ struct ContentView: View {
             let source = "https://cdn.theoplayer.com/video/big_buck_bunny/big_buck_bunny.m3u8"
             let typedSource = TypedSource(src: source, type: "application/x-mpegurl")
             player.source = SourceDescription(source: typedSource)
+            player.play()
         }
         .onDisappear {
             collector.detach()

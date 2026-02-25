@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DAB243F2F1F88CB00E8A425 /* THEOplayerCollector in Frameworks */ = {isa = PBXBuildFile; productRef = 9DAB243E2F1F88CB00E8A425 /* THEOplayerCollector */; };
+		9DA0A27F2F4DA081003D0459 /* THEOplayerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA0A27E2F4DA081003D0459 /* THEOplayerSDK */; };
+		9DAE61402F4D94CB003B94D8 /* THEOplayerCollector in Frameworks */ = {isa = PBXBuildFile; productRef = 9DAE613F2F4D94CB003B94D8 /* THEOplayerCollector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DAB243F2F1F88CB00E8A425 /* THEOplayerCollector in Frameworks */,
+				9DA0A27F2F4DA081003D0459 /* THEOplayerSDK in Frameworks */,
+				9DAE61402F4D94CB003B94D8 /* THEOplayerCollector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +72,8 @@
 			);
 			name = THEOplayerBasicSetup;
 			packageProductDependencies = (
-				9DAB243E2F1F88CB00E8A425 /* THEOplayerCollector */,
+				9DAE613F2F4D94CB003B94D8 /* THEOplayerCollector */,
+				9DA0A27E2F4DA081003D0459 /* THEOplayerSDK */,
 			);
 			productName = THEOplayerBasicSetup;
 			productReference = 9DAB23C12F1F80EC00E8A425 /* THEOplayerBasicSetup.app */;
@@ -101,7 +104,8 @@
 			mainGroup = 9DAB23B82F1F80EC00E8A425;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				9DAB243D2F1F88CB00E8A425 /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */,
+				9DAE613E2F4D94CB003B94D8 /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */,
+				9DA0A27D2F4DA081003D0459 /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9DAB23C22F1F80EC00E8A425 /* Products */;
@@ -279,12 +283,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.THEOplayerBasicSetup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,12 +320,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.THEOplayerBasicSetup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -345,20 +357,33 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9DAB243D2F1F88CB00E8A425 /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */ = {
+		9DA0A27D2F4DA081003D0459 /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/THEOplayer/theoplayer-sdk-apple";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		9DAE613E2F4D94CB003B94D8 /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/bitmovin/bitmovin-analytics-collector-ios";
 			requirement = {
 				kind = exactVersion;
-				version = "3.21.0-a.3";
+				version = "3.22.0-a.1";
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9DAB243E2F1F88CB00E8A425 /* THEOplayerCollector */ = {
+		9DA0A27E2F4DA081003D0459 /* THEOplayerSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DAB243D2F1F88CB00E8A425 /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */;
+			package = 9DA0A27D2F4DA081003D0459 /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */;
+			productName = THEOplayerSDK;
+		};
+		9DAE613F2F4D94CB003B94D8 /* THEOplayerCollector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DAE613E2F4D94CB003B94D8 /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */;
 			productName = THEOplayerCollector;
 		};
 /* End XCSwiftPackageProductDependency section */
