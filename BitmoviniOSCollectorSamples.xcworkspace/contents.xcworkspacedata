@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:THEOplayerBasicSetup/THEOplayerBasicSetup/THEOplayerBasicSetup.xcodeproj">
+      location = "group:THEOplayerBasicSetup/THEOplayerBasicSetup.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:BitmovinPlayerSSAI/BitmovinPlayerSSAI.xcodeproj">
