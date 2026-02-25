@@ -65,7 +65,7 @@ You have to log in to [https://bitmovin.com/dashboard](https://bitmovin.com/dash
     com.bitmovin.analytics.samples.bitmovinplayer.playlist
     com.bitmovin.analytics.samples.avfoundation.basic
     com.bitmovin.analytics.samples.amazonivs.basic
-    com.bitmovin.analytics.THEOplayerBasicSetup
+    com.bitmovin.analytics.samples.theoplayer.basic
 
 ### Sample App Setup Instructions with Bitmovin player
 
