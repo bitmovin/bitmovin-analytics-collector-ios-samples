@@ -1,0 +1,33 @@
+{
+  "originHash" : "0b95a94b2eefdaa1010e5fdce1892e6ec838b438fe7ed49c486e32db63c27470",
+  "pins" : [
+    {
+      "identity" : "bitmovin-analytics-collector-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bitmovin/bitmovin-analytics-collector-ios",
+      "state" : {
+        "revision" : "564a3d387520cffba212b9fe5743ba0b18cb2324",
+        "version" : "3.22.0"
+      }
+    },
+    {
+      "identity" : "player-ios-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bitmovin/player-ios-core.git",
+      "state" : {
+        "revision" : "26fc35efbc66987228a13cbf94912dcac3fbf756",
+        "version" : "3.108.0"
+      }
+    },
+    {
+      "identity" : "theoplayer-sdk-apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/THEOplayer/theoplayer-sdk-apple",
+      "state" : {
+        "revision" : "a92eceae4d2fd0e4b475f2d4ca8990eb1c416501",
+        "version" : "10.10.0"
+      }
+    }
+  ],
+  "version" : 3
+}
