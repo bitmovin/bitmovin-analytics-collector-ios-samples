@@ -14,9 +14,6 @@
       location = "group:BitmovinPlayerPlaylist/BitmovinPlayerPlaylist.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:AmazonIVSPlayerBasicSetup/AmazonIVSPlayerBasicSetup.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:AVFoundationPlayerBasicSetup/AVFoundationPlayerBasicSetup.xcodeproj">
    </FileRef>
    <FileRef
