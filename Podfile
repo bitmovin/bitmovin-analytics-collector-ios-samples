@@ -11,26 +11,15 @@ def analytics_collector
   pod 'BitmovinAnalyticsCollector/Core', '3.18.1'
   pod 'BitmovinAnalyticsCollector/BitmovinPlayer', '3.18.1'
   pod 'BitmovinAnalyticsCollector/AVPlayer', '3.18.1'
-  pod 'BitmovinAnalyticsCollector/AmazonIVSPlayer', '3.18.1'
 end
 
 def bitmovin_player
   pod 'BitmovinPlayer', '3.99.0'
 end
 
-def amazon_ivs_player
-  pod 'AmazonIVSPlayer', '1.24.0'
-end
-
 target 'AVFoundationPlayerBasicSetup' do
   project 'AVFoundationPlayerBasicSetup/AVFoundationPlayerBasicSetup.xcodeproj'
   analytics_collector
-end
-
-target 'AmazonIVSPlayerBasicSetup' do
-  project 'AmazonIVSPlayerBasicSetup/AmazonIVSPlayerBasicSetup.xcodeproj'
-  analytics_collector
-  amazon_ivs_player
 end
 
 target 'BitmovinPlayerPlaylist' do
