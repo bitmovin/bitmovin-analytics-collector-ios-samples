@@ -1,0 +1,11 @@
+platform :ios, '15.0'
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'THEOplayerAds'
+
+target 'THEOplayerAds' do
+  project 'THEOplayerAds.xcodeproj'
+  pod 'GoogleAds-IMA-iOS-SDK', '3.24.0'
+end

@@ -1,29 +1,35 @@
-platform :ios, '14.0'
+platform :ios, '15.0'
 use_frameworks!
 
-source 'https://cdn.cocoapods.org'
-source 'https://github.com/bitmovin/cocoapod-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+# source 'https://github.com/bitmovin/cocoapod-specs.git'
 
 workspace 'BitmoviniOSCollectorSamples'
 
 
-def analytics_collector
-  pod 'BitmovinAnalyticsCollector/Core', '3.18.1'
-  pod 'BitmovinAnalyticsCollector/BitmovinPlayer', '3.18.1'
-  pod 'BitmovinAnalyticsCollector/AVPlayer', '3.18.1'
-end
-
-def bitmovin_player
-  pod 'BitmovinPlayer', '3.99.0'
-end
+def analytics_collector_version = '3.24.0-a.5'
 
 target 'AVFoundationPlayerBasicSetup' do
   project 'AVFoundationPlayerBasicSetup/AVFoundationPlayerBasicSetup.xcodeproj'
-  analytics_collector
+  pod 'BitmovinAnalyticsCollector/Core', analytics_collector_version
+  pod 'BitmovinAnalyticsCollector/AVPlayer', analytics_collector_version
 end
 
 target 'BitmovinPlayerPlaylist' do
   project 'BitmovinPlayerPlaylist/BitmovinPlayerPlaylist.xcodeproj'
-  bitmovin_player
-  analytics_collector
+  pod 'BitmovinPlayer', '3.99.0'
+  pod 'BitmovinAnalyticsCollector/Core', analytics_collector_version
+  pod 'BitmovinAnalyticsCollector/BitmovinPlayer', analytics_collector_version
+end
+
+target 'THEOplayerBasicSetup' do
+  project 'THEOplayerBasicSetup/THEOplayerBasicSetup.xcodeproj'
+  pod 'THEOplayerSDK-core', '11.0.0'
+  pod 'BitmovinAnalyticsCollector/Core', analytics_collector_version
+  pod 'BitmovinAnalyticsCollector/THEOplayer', analytics_collector_version
+end
+
+target 'THEOplayerAds' do
+  project 'THEOplayerAds/THEOplayerAds.xcodeproj'
+  pod 'GoogleAds-IMA-iOS-SDK', '3.24.0'
 end

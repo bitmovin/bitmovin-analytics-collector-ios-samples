@@ -1,41 +1,44 @@
 PODS:
-  - AmazonIVSPlayer (1.24.0)
-  - BitmovinAnalyticsCollector/AmazonIVSPlayer (3.8.0):
-    - AmazonIVSPlayer (= 1.24.0)
+  - BitmovinAnalyticsCollector/AVPlayer (3.24.0-a.5):
     - BitmovinAnalyticsCollector/Core
-  - BitmovinAnalyticsCollector/AVPlayer (3.8.0):
+  - BitmovinAnalyticsCollector/BitmovinPlayer (3.24.0-a.5):
     - BitmovinAnalyticsCollector/Core
-  - BitmovinAnalyticsCollector/BitmovinPlayer (3.8.0):
+    - BitmovinPlayerCore (~> 3.51)
+  - BitmovinAnalyticsCollector/Core (3.24.0-a.5)
+  - BitmovinAnalyticsCollector/THEOplayer (3.24.0-a.5):
     - BitmovinAnalyticsCollector/Core
-    - BitmovinPlayerCore (~> 3.48)
-  - BitmovinAnalyticsCollector/Core (3.8.0)
-  - BitmovinPlayer (3.70.0):
+  - BitmovinPlayer (3.99.0):
     - BitmovinAnalyticsCollector/BitmovinPlayer (~> 3.0)
-    - BitmovinPlayerCore (= 3.70.0)
-  - BitmovinPlayerCore (3.70.0)
+    - BitmovinPlayerCore (= 3.99.0)
+  - BitmovinPlayerCore (3.99.0)
+  - GoogleAds-IMA-iOS-SDK (3.24.0)
+  - THEOplayerSDK-core (11.0.0)
 
 DEPENDENCIES:
-  - AmazonIVSPlayer (= 1.24.0)
-  - BitmovinAnalyticsCollector/AmazonIVSPlayer (= 3.8.0)
-  - BitmovinAnalyticsCollector/AVPlayer (= 3.8.0)
-  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.8.0)
-  - BitmovinAnalyticsCollector/Core (= 3.8.0)
-  - BitmovinPlayer (= 3.70.0)
+  - BitmovinAnalyticsCollector/AVPlayer (= 3.24.0-a.5)
+  - BitmovinAnalyticsCollector/BitmovinPlayer (= 3.24.0-a.5)
+  - BitmovinAnalyticsCollector/Core (= 3.24.0-a.5)
+  - BitmovinAnalyticsCollector/THEOplayer (= 3.24.0-a.5)
+  - BitmovinPlayer (= 3.99.0)
+  - GoogleAds-IMA-iOS-SDK (= 3.24.0)
+  - THEOplayerSDK-core (= 11.0.0)
 
 SPEC REPOS:
-  https://github.com/bitmovin/cocoapod-specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - BitmovinAnalyticsCollector
+    - GoogleAds-IMA-iOS-SDK
+    - THEOplayerSDK-core
+  trunk:
     - BitmovinPlayer
     - BitmovinPlayerCore
-  trunk:
-    - AmazonIVSPlayer
 
 SPEC CHECKSUMS:
-  AmazonIVSPlayer: 83d7d16a27eb5f804aa88e6a8fb0a77e0e08ef9d
-  BitmovinAnalyticsCollector: 1390e34dd1af4a0b9fe09e290510de648eec4c09
-  BitmovinPlayer: 3ea160bed65b291fb7b9b1a25f383f4a333761b6
-  BitmovinPlayerCore: cd4d8d8f0385f926da68cf2e91da3b6429a60d3e
+  BitmovinAnalyticsCollector: fbfff5ea2d91e6f2f40c357ae9bd19b59eb0de85
+  BitmovinPlayer: 4c54d82cb50089d5c2e58a96976f2e87f81a6131
+  BitmovinPlayerCore: ccf72367beea84937846b08eafd95e2c5c983c98
+  GoogleAds-IMA-iOS-SDK: bf4dc86b31a1d1b27021008200bbeb6faa689901
+  THEOplayerSDK-core: e6505e392563404145fdb2d418781c6260860643
 
-PODFILE CHECKSUM: d0e886430d732912fa0a2001490e5f4221fd09cb
+PODFILE CHECKSUM: cc580a7c9fcaa03cb2fdfd66243109604cff2b31
 
 COCOAPODS: 1.16.2

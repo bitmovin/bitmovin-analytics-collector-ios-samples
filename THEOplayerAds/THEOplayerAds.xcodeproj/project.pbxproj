@@ -7,149 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B6AD72496796A4331ED4FB3 /* Pods_THEOplayerBasicSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCC2B1C6A886CCC59F91435 /* Pods_THEOplayerBasicSetup.framework */; };
+		C1BF001A00000000000000AA /* THEOplayerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C1SP001A00000000000000AA /* THEOplayerSDK */; };
+		C1BF001B00000000000000BB /* THEOplayerCollector in Frameworks */ = {isa = PBXBuildFile; productRef = C1SP001B00000000000000BB /* THEOplayerCollector */; };
+		C1BF001C00000000000000CC /* THEOplayerGoogleIMAIntegration in Frameworks */ = {isa = PBXBuildFile; productRef = C1SP001C00000000000000CC /* THEOplayerGoogleIMAIntegration */; };
+		D871F01502CB109E4E83D93A /* Pods_THEOplayerAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193A23BC8FD1E2519404467E /* Pods_THEOplayerAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2564600356C58A71EFC43F96 /* Pods-THEOplayerBasicSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THEOplayerBasicSetup.debug.xcconfig"; path = "Target Support Files/Pods-THEOplayerBasicSetup/Pods-THEOplayerBasicSetup.debug.xcconfig"; sourceTree = "<group>"; };
-		8DCC2B1C6A886CCC59F91435 /* Pods_THEOplayerBasicSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THEOplayerBasicSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D7313E42F9B5438007BFF65 /* THEOplayerBasicSetup.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = THEOplayerBasicSetup.xcodeproj; sourceTree = "<group>"; };
-		9DAB23C12F1F80EC00E8A425 /* THEOplayerBasicSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THEOplayerBasicSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1B97E525D536C1F57A90A7C /* Pods-THEOplayerBasicSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THEOplayerBasicSetup.release.xcconfig"; path = "Target Support Files/Pods-THEOplayerBasicSetup/Pods-THEOplayerBasicSetup.release.xcconfig"; sourceTree = "<group>"; };
+		193A23BC8FD1E2519404467E /* Pods_THEOplayerAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THEOplayerAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EF467429CD4987417EB691 /* Pods-THEOplayerAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THEOplayerAds.debug.xcconfig"; path = "../THEOplayerAds/Pods/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds.debug.xcconfig"; sourceTree = "<group>"; };
+		A77D659E1E7048F3171E70A6 /* Pods-THEOplayerAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THEOplayerAds.release.xcconfig"; path = "../THEOplayerAds/Pods/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds.release.xcconfig"; sourceTree = "<group>"; };
+		C1FR001A00000000000000AA /* THEOplayerAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THEOplayerAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9DAB23C32F1F80EC00E8A425 /* THEOplayerBasicSetup */ = {
+		C1FS001A00000000000000AA /* THEOplayerAds */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 			);
-			path = THEOplayerBasicSetup;
+			path = THEOplayerAds;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9DAB23BE2F1F80EC00E8A425 /* Frameworks */ = {
+		C1BP001A00000000000000AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6AD72496796A4331ED4FB3 /* Pods_THEOplayerBasicSetup.framework in Frameworks */,
+				C1BF001A00000000000000AA /* THEOplayerSDK in Frameworks */,
+				C1BF001B00000000000000BB /* THEOplayerCollector in Frameworks */,
+				C1BF001C00000000000000CC /* THEOplayerGoogleIMAIntegration in Frameworks */,
+				D871F01502CB109E4E83D93A /* Pods_THEOplayerAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D7313E62F9B5438007BFF65 /* Products */ = {
+		AA2116DBF39ACD61C3F11B6E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9DAB23B82F1F80EC00E8A425 = {
-			isa = PBXGroup;
-			children = (
-				9DAB23C32F1F80EC00E8A425 /* THEOplayerBasicSetup */,
-				9DAB23C22F1F80EC00E8A425 /* Products */,
-				D53A19B84854BF85067E0DB9 /* Pods */,
-				B043CED55FA2FC4FEEA697C8 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		9DAB23C22F1F80EC00E8A425 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9DAB23C12F1F80EC00E8A425 /* THEOplayerBasicSetup.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B043CED55FA2FC4FEEA697C8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8DCC2B1C6A886CCC59F91435 /* Pods_THEOplayerBasicSetup.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D53A19B84854BF85067E0DB9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2564600356C58A71EFC43F96 /* Pods-THEOplayerBasicSetup.debug.xcconfig */,
-				A1B97E525D536C1F57A90A7C /* Pods-THEOplayerBasicSetup.release.xcconfig */,
+				42EF467429CD4987417EB691 /* Pods-THEOplayerAds.debug.xcconfig */,
+				A77D659E1E7048F3171E70A6 /* Pods-THEOplayerAds.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
+		B900A39D688A4F4E03DAF824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				193A23BC8FD1E2519404467E /* Pods_THEOplayerAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1GR001A00000000000000AA = {
+			isa = PBXGroup;
+			children = (
+				C1FS001A00000000000000AA /* THEOplayerAds */,
+				C1GR001B00000000000000BB /* Products */,
+				AA2116DBF39ACD61C3F11B6E /* Pods */,
+				B900A39D688A4F4E03DAF824 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1GR001B00000000000000BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FR001A00000000000000AA /* THEOplayerAds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DAB23C02F1F80EC00E8A425 /* THEOplayerBasicSetup */ = {
+		C1NT001A00000000000000AA /* THEOplayerAds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DAB23E22F1F80ED00E8A425 /* Build configuration list for PBXNativeTarget "THEOplayerBasicSetup" */;
+			buildConfigurationList = C1CL001B00000000000000BB /* Build configuration list for PBXNativeTarget "THEOplayerAds" */;
 			buildPhases = (
-				EA405CFE9F393F98D0EB4400 /* [CP] Check Pods Manifest.lock */,
-				9DAB23BD2F1F80EC00E8A425 /* Sources */,
-				9DAB23BE2F1F80EC00E8A425 /* Frameworks */,
-				9DAB23BF2F1F80EC00E8A425 /* Resources */,
-				8F299F0A31EB6127A6DEC7BC /* [CP] Embed Pods Frameworks */,
+				1E5CDB28B706F20A0E83EBF7 /* [CP] Check Pods Manifest.lock */,
+				C1BP001C00000000000000CC /* Sources */,
+				C1BP001A00000000000000AA /* Frameworks */,
+				C1BP001B00000000000000BB /* Resources */,
+				8472C329F84E74A77C9BB343 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9DAB23C32F1F80EC00E8A425 /* THEOplayerBasicSetup */,
+				C1FS001A00000000000000AA /* THEOplayerAds */,
 			);
-			name = THEOplayerBasicSetup;
-			productName = THEOplayerBasicSetup;
-			productReference = 9DAB23C12F1F80EC00E8A425 /* THEOplayerBasicSetup.app */;
+			name = THEOplayerAds;
+			packageProductDependencies = (
+				C1SP001B00000000000000BB /* THEOplayerCollector */,
+				C1SP001A00000000000000AA /* THEOplayerSDK */,
+				C1SP001C00000000000000CC /* THEOplayerGoogleIMAIntegration */,
+			);
+			productName = THEOplayerAds;
+			productReference = C1FR001A00000000000000AA /* THEOplayerAds.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9DAB23B92F1F80EC00E8A425 /* Project object */ = {
+		C1PJ001A00000000000000AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					9DAB23C02F1F80EC00E8A425 = {
+					C1NT001A00000000000000AA = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = 9DAB23BC2F1F80EC00E8A425 /* Build configuration list for PBXProject "THEOplayerBasicSetup" */;
+			buildConfigurationList = C1CL001A00000000000000AA /* Build configuration list for PBXProject "THEOplayerAds" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9DAB23B82F1F80EC00E8A425;
+			mainGroup = C1GR001A00000000000000AA;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 9DAB23C22F1F80EC00E8A425 /* Products */;
-			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 9D7313E62F9B5438007BFF65 /* Products */;
-					ProjectRef = 9D7313E42F9B5438007BFF65 /* THEOplayerBasicSetup.xcodeproj */;
-				},
+			packageReferences = (
+				C1RS001B00000000000000BB /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */,
+				C1RS001A00000000000000AA /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */,
 			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C1GR001B00000000000000BB /* Products */;
+			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DAB23C02F1F80EC00E8A425 /* THEOplayerBasicSetup */,
+				C1NT001A00000000000000AA /* THEOplayerAds */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9DAB23BF2F1F80EC00E8A425 /* Resources */ = {
+		C1BP001B00000000000000BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -159,24 +160,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8F299F0A31EB6127A6DEC7BC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THEOplayerBasicSetup/Pods-THEOplayerBasicSetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THEOplayerBasicSetup/Pods-THEOplayerBasicSetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THEOplayerBasicSetup/Pods-THEOplayerBasicSetup-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EA405CFE9F393F98D0EB4400 /* [CP] Check Pods Manifest.lock */ = {
+		1E5CDB28B706F20A0E83EBF7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,17 +175,34 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-THEOplayerBasicSetup-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-THEOplayerAds-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8472C329F84E74A77C9BB343 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9DAB23BD2F1F80EC00E8A425 /* Sources */ = {
+		C1BP001C00000000000000CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,7 +212,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9DAB23E02F1F80ED00E8A425 /* Debug */ = {
+		C1BC001A00000000000000AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +276,7 @@
 			};
 			name = Debug;
 		};
-		9DAB23E12F1F80ED00E8A425 /* Release */ = {
+		C1BC001B00000000000000BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,9 +333,9 @@
 			};
 			name = Release;
 		};
-		9DAB23E32F1F80ED00E8A425 /* Debug */ = {
+		C1BC001C00000000000000CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2564600356C58A71EFC43F96 /* Pods-THEOplayerBasicSetup.debug.xcconfig */;
+			baseConfigurationReference = 42EF467429CD4987417EB691 /* Pods-THEOplayerAds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -355,7 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.theoplayer.basic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.theoplayer.ads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -371,9 +372,9 @@
 			};
 			name = Debug;
 		};
-		9DAB23E42F1F80ED00E8A425 /* Release */ = {
+		C1BC001D00000000000000DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1B97E525D536C1F57A90A7C /* Pods-THEOplayerBasicSetup.release.xcconfig */;
+			baseConfigurationReference = A77D659E1E7048F3171E70A6 /* Pods-THEOplayerAds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,7 +395,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.theoplayer.basic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmovin.analytics.samples.theoplayer.ads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -413,25 +414,62 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DAB23BC2F1F80EC00E8A425 /* Build configuration list for PBXProject "THEOplayerBasicSetup" */ = {
+		C1CL001A00000000000000AA /* Build configuration list for PBXProject "THEOplayerAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DAB23E02F1F80ED00E8A425 /* Debug */,
-				9DAB23E12F1F80ED00E8A425 /* Release */,
+				C1BC001A00000000000000AA /* Debug */,
+				C1BC001B00000000000000BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DAB23E22F1F80ED00E8A425 /* Build configuration list for PBXNativeTarget "THEOplayerBasicSetup" */ = {
+		C1CL001B00000000000000BB /* Build configuration list for PBXNativeTarget "THEOplayerAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DAB23E32F1F80ED00E8A425 /* Debug */,
-				9DAB23E42F1F80ED00E8A425 /* Release */,
+				C1BC001C00000000000000CC /* Debug */,
+				C1BC001D00000000000000DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1RS001A00000000000000AA /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/THEOplayer/theoplayer-sdk-apple";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		C1RS001B00000000000000BB /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bitmovin/bitmovin-analytics-collector-ios";
+			requirement = {
+				kind = exactVersion;
+				version = "3.24.0-a.5";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1SP001A00000000000000AA /* THEOplayerSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1RS001A00000000000000AA /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */;
+			productName = THEOplayerSDK;
+		};
+		C1SP001B00000000000000BB /* THEOplayerCollector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1RS001B00000000000000BB /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */;
+			productName = THEOplayerCollector;
+		};
+		C1SP001C00000000000000CC /* THEOplayerGoogleIMAIntegration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1RS001A00000000000000AA /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */;
+			productName = THEOplayerGoogleIMAIntegration;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 9DAB23B92F1F80EC00E8A425 /* Project object */;
+	rootObject = C1PJ001A00000000000000AA /* Project object */;
 }

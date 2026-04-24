@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:THEOplayerBasicSetup/THEOplayerBasicSetup.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:BitmovinPlayerSSAI/BitmovinPlayerSSAI.xcodeproj">
    </FileRef>
    <FileRef
@@ -13,8 +10,14 @@
    <FileRef
       location = "group:BitmovinPlayerPlaylist/BitmovinPlayerPlaylist.xcodeproj">
    </FileRef>
-<FileRef
+   <FileRef
       location = "group:AVFoundationPlayerBasicSetup/AVFoundationPlayerBasicSetup.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:THEOplayerBasicSetup/THEOplayerBasicSetup.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:THEOplayerAds/THEOplayerAds.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
