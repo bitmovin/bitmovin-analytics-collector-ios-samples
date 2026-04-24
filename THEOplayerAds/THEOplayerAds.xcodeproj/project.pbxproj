@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D7314982F9B6BAF007BFF65 /* THEOplayerTHEOadsIntegration in Frameworks */ = {isa = PBXBuildFile; productRef = 9D7314972F9B6BAF007BFF65 /* THEOplayerTHEOadsIntegration */; };
+		9D7314992F9B6BB0007BFF65 /* THEOplayerGoogleIMAIntegration in Frameworks */ = {isa = PBXBuildFile; productRef = 9D73149A2F9B6BB0007BFF65 /* THEOplayerGoogleIMAIntegration */; };
+		9D73149B2F9B6BB1007BFF65 /* GoogleInteractiveMediaAds in Frameworks */ = {isa = PBXBuildFile; productRef = 9D73149C2F9B6BB1007BFF65 /* GoogleInteractiveMediaAds */; };
 		C1BF001A00000000000000AA /* THEOplayerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C1SP001A00000000000000AA /* THEOplayerSDK */; };
 		C1BF001B00000000000000BB /* THEOplayerCollector in Frameworks */ = {isa = PBXBuildFile; productRef = C1SP001B00000000000000BB /* THEOplayerCollector */; };
-		C1BF001C00000000000000CC /* THEOplayerGoogleIMAIntegration in Frameworks */ = {isa = PBXBuildFile; productRef = C1SP001C00000000000000CC /* THEOplayerGoogleIMAIntegration */; };
-		D871F01502CB109E4E83D93A /* Pods_THEOplayerAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193A23BC8FD1E2519404467E /* Pods_THEOplayerAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		193A23BC8FD1E2519404467E /* Pods_THEOplayerAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THEOplayerAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42EF467429CD4987417EB691 /* Pods-THEOplayerAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THEOplayerAds.debug.xcconfig"; path = "../THEOplayerAds/Pods/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds.debug.xcconfig"; sourceTree = "<group>"; };
-		A77D659E1E7048F3171E70A6 /* Pods-THEOplayerAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THEOplayerAds.release.xcconfig"; path = "../THEOplayerAds/Pods/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds.release.xcconfig"; sourceTree = "<group>"; };
 		C1FR001A00000000000000AA /* THEOplayerAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THEOplayerAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C1FS001A00000000000000AA /* THEOplayerAds */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = THEOplayerAds;
 			sourceTree = "<group>";
 		};
@@ -35,30 +31,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7314982F9B6BAF007BFF65 /* THEOplayerTHEOadsIntegration in Frameworks */,
+				9D7314992F9B6BB0007BFF65 /* THEOplayerGoogleIMAIntegration in Frameworks */,
+				9D73149B2F9B6BB1007BFF65 /* GoogleInteractiveMediaAds in Frameworks */,
 				C1BF001A00000000000000AA /* THEOplayerSDK in Frameworks */,
 				C1BF001B00000000000000BB /* THEOplayerCollector in Frameworks */,
-				C1BF001C00000000000000CC /* THEOplayerGoogleIMAIntegration in Frameworks */,
-				D871F01502CB109E4E83D93A /* Pods_THEOplayerAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA2116DBF39ACD61C3F11B6E /* Pods */ = {
+		9D7314962F9B6BAF007BFF65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				42EF467429CD4987417EB691 /* Pods-THEOplayerAds.debug.xcconfig */,
-				A77D659E1E7048F3171E70A6 /* Pods-THEOplayerAds.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
-		B900A39D688A4F4E03DAF824 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				193A23BC8FD1E2519404467E /* Pods_THEOplayerAds.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,9 +53,8 @@
 			isa = PBXGroup;
 			children = (
 				C1FS001A00000000000000AA /* THEOplayerAds */,
+				9D7314962F9B6BAF007BFF65 /* Frameworks */,
 				C1GR001B00000000000000BB /* Products */,
-				AA2116DBF39ACD61C3F11B6E /* Pods */,
-				B900A39D688A4F4E03DAF824 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,11 +73,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1CL001B00000000000000BB /* Build configuration list for PBXNativeTarget "THEOplayerAds" */;
 			buildPhases = (
-				1E5CDB28B706F20A0E83EBF7 /* [CP] Check Pods Manifest.lock */,
 				C1BP001C00000000000000CC /* Sources */,
 				C1BP001A00000000000000AA /* Frameworks */,
 				C1BP001B00000000000000BB /* Resources */,
-				8472C329F84E74A77C9BB343 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -105,7 +88,9 @@
 			packageProductDependencies = (
 				C1SP001B00000000000000BB /* THEOplayerCollector */,
 				C1SP001A00000000000000AA /* THEOplayerSDK */,
-				C1SP001C00000000000000CC /* THEOplayerGoogleIMAIntegration */,
+				9D7314972F9B6BAF007BFF65 /* THEOplayerTHEOadsIntegration */,
+				9D73149A2F9B6BB0007BFF65 /* THEOplayerGoogleIMAIntegration */,
+				9D73149C2F9B6BB1007BFF65 /* GoogleInteractiveMediaAds */,
 			);
 			productName = THEOplayerAds;
 			productReference = C1FR001A00000000000000AA /* THEOplayerAds.app */;
@@ -119,7 +104,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					C1NT001A00000000000000AA = {
 						CreatedOnToolsVersion = 26.2;
@@ -138,6 +123,7 @@
 			packageReferences = (
 				C1RS001B00000000000000BB /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */,
 				C1RS001A00000000000000AA /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */,
+				9D73149D2F9B6BB2007BFF65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C1GR001B00000000000000BB /* Products */;
@@ -158,48 +144,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1E5CDB28B706F20A0E83EBF7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-THEOplayerAds-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8472C329F84E74A77C9BB343 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THEOplayerAds/Pods-THEOplayerAds-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1BP001C00000000000000CC /* Sources */ = {
@@ -271,6 +215,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -328,6 +273,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -335,7 +281,6 @@
 		};
 		C1BC001C00000000000000CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42EF467429CD4987417EB691 /* Pods-THEOplayerAds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -374,7 +319,6 @@
 		};
 		C1BC001D00000000000000DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A77D659E1E7048F3171E70A6 /* Pods-THEOplayerAds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,9 +395,22 @@
 				version = "3.24.0-a.5";
 			};
 		};
+		9D73149D2F9B6BB2007BFF65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9D7314972F9B6BAF007BFF65 /* THEOplayerTHEOadsIntegration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1RS001A00000000000000AA /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */;
+			productName = THEOplayerTHEOadsIntegration;
+		};
 		C1SP001A00000000000000AA /* THEOplayerSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C1RS001A00000000000000AA /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */;
@@ -464,10 +421,15 @@
 			package = C1RS001B00000000000000BB /* XCRemoteSwiftPackageReference "bitmovin-analytics-collector-ios" */;
 			productName = THEOplayerCollector;
 		};
-		C1SP001C00000000000000CC /* THEOplayerGoogleIMAIntegration */ = {
+		9D73149A2F9B6BB0007BFF65 /* THEOplayerGoogleIMAIntegration */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C1RS001A00000000000000AA /* XCRemoteSwiftPackageReference "theoplayer-sdk-apple" */;
 			productName = THEOplayerGoogleIMAIntegration;
+		};
+		9D73149C2F9B6BB1007BFF65 /* GoogleInteractiveMediaAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D73149D2F9B6BB2007BFF65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-ios" */;
+			productName = GoogleInteractiveMediaAds;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

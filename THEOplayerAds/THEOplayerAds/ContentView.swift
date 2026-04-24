@@ -1,22 +1,21 @@
 import SwiftUI
 import THEOplayerSDK
+import THEOplayerTHEOadsIntegration
 import THEOplayerCollector
 import CoreCollector
-import THEOplayerGoogleIMAIntegration
 
 // MARK: - Player Manager
 
 class PlayerManager: ObservableObject {
     var player: THEOplayer?
     var collector: THEOplayerCollectorApi?
-    var imaIntegration: GoogleImaIntegration?
 
     @Published var isPlaying = false
 
     private let streamUrl = "https://cdn.theoplayer.com/video/big_buck_bunny/big_buck_bunny.m3u8"
 
-    // Google IMA skippable test ad tag
-    private let skippableAdTag = "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_skippable_inline&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator="
+    // Skippable VAST test ad tag
+    private let skippableAdTag = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator="
 
     func setupPlayer(in containerView: UIView) {
         guard player == nil else { return }
@@ -30,16 +29,9 @@ class PlayerManager: ObservableObject {
 
         self.player = theoplayer
 
-        setupIMAIntegration(for: theoplayer)
         setupAnalytics(for: theoplayer)
         setupEventListeners(for: theoplayer)
         loadSource(for: theoplayer)
-    }
-
-    private func setupIMAIntegration(for player: THEOplayer) {
-        let integration = GoogleIMAIntegrationFactory.createIntegration(on: player)
-        imaIntegration = integration
-        player.addIntegration(integration)
     }
 
     private func setupAnalytics(for player: THEOplayer) {
@@ -111,7 +103,6 @@ class PlayerManager: ObservableObject {
 
     func cleanup() {
         collector?.detach()
-        imaIntegration = nil
         player?.stop()
         player = nil
     }
